@@ -1,0 +1,9 @@
+X.create_blueprint_asset_with_parent(asset_path, parent_class) -> Blueprint
+Creates a blueprint based on a specific parent, honoring registered custom blueprint types
+
+Args:
+    asset_path (str): The full path that the asset should be created with
+    parent_class (type(Class)): The parent class that the blueprint should be based on
+
+Returns:
+    Blueprint:

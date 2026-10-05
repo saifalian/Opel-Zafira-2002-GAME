@@ -1,0 +1,38 @@
+{
+  "materials": [
+    {
+      "name": "LT_Road",
+      "ok": true
+    },
+    {
+      "name": "LT_Curbs_L",
+      "ok": true
+    },
+    {
+      "name": "LT_Curbs_R",
+      "ok": true
+    },
+    {
+      "name": "LT_Terrain",
+      "ok": true
+    },
+    {
+      "name": "LT_Barriers",
+      "ok": true
+    },
+    {
+      "name": "LT_CityBuildings",
+      "ok": true
+    },
+    {
+      "name": "LT_Trees",
+      "ok": true
+    },
+    {
+      "name": "LT_StartGantry",
+      "ok": true
+    }
+  ],
+  "map": "/Game/Zafira/Maps/ZafiraLongTrack",
+  "success": false
+}

@@ -1,0 +1,9 @@
+{
+  "dir": [
+    "get_outer",
+    "get_outermost",
+    "get_package",
+    "get_typed_outer",
+    "is_package_external"
+  ]
+}

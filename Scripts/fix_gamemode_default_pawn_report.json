@@ -1,0 +1,23 @@
+{
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvGameMode": {
+    "default_pawn_class": [
+      "<Object '/Game/Zafira/BP_Zafira.BP_Zafira_C' (0x0000024365A12300) Class 'BlueprintGeneratedClass'>",
+      "<Object '/Game/Zafira/BP_Zafira.BP_Zafira_C' (0x0000024365A12300) Class 'BlueprintGeneratedClass'>"
+    ],
+    "player_controller_class": [
+      "<Object '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController.BP_VehicleAdvPlayerController_C' (0x0000024365A17700) Class 'BlueprintGeneratedClass'>",
+      "<Object '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController.BP_VehicleAdvPlayerController_C' (0x0000024365A17700) Class 'BlueprintGeneratedClass'>"
+    ]
+  },
+  "/Game/Zafira/BP_ZafiraGameMode": {
+    "default_pawn_class": [
+      "<Object '/Game/Zafira/BP_Zafira.BP_Zafira_C' (0x0000024365A12300) Class 'BlueprintGeneratedClass'>",
+      "<Object '/Game/Zafira/BP_Zafira.BP_Zafira_C' (0x0000024365A12300) Class 'BlueprintGeneratedClass'>"
+    ],
+    "player_controller_class": [
+      "<Object '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController.BP_VehicleAdvPlayerController_C' (0x0000024365A17700) Class 'BlueprintGeneratedClass'>",
+      "<Object '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController.BP_VehicleAdvPlayerController_C' (0x0000024365A17700) Class 'BlueprintGeneratedClass'>"
+    ]
+  },
+  "map_saved": true
+}

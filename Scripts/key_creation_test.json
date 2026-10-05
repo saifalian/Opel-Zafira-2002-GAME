@@ -1,0 +1,10 @@
+{
+  "set_editor": {
+    "str": "<Struct 'Key' (0x00000290F24F9E60) {}>",
+    "dict": {},
+    "tuple": "()",
+    "export": "W"
+  },
+  "attr": "ERR 'Key' object has no attribute 'key_name'",
+  "ctor": "ERR call() takes at most 0 arguments (1 given)"
+}

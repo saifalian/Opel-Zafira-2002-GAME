@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "changed": [
+    {
+      "label": "PlayerStart",
+      "class": "PlayerStart",
+      "loc": "<Struct 'Vector' (0x00000274FDF11EB0) {x: 83533.756309, y: -1075.473784, z: 489.039843}>"
+    },
+    {
+      "removed": "Player_Zafira_Start"
+    }
+  ],
+  "start": [
+    83533.75630910997,
+    -1075.4737837016005,
+    489.0398428933872
+  ],
+  "yaw": 37.46519461530684
+}

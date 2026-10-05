@@ -1,0 +1,140 @@
+{
+  "graph_methods": {
+    "add_branch_node": "x.add_branch_node() -> K2Node_IfThenElse\r\nCreates a UK2Node_IfThenElse in the current graph\r\n\r\nReturns:\r\n    K2Node_IfThenElse:",
+    "add_call_function_node": "x.add_call_function_node(function_path) -> K2Node_CallFunction\r\nCreates a UK2Node_CallFunction in the current graph invoking the function specified by FunctionPath\r\n\r\nArgs:\r\n    function_path (str): \r\n\r\nReturns:\r\n    K2Node_CallFunction:",
+    "add_comment_node": "x.add_comment_node(comment_text, location, size=[400.000000, 200.000000]) -> EdGraphNode_Comment\r\nCreates a comment node in the current graph at the given location with the given text and size.\r\n\r\nArgs:\r\n    comment_text (str): \r\n    location (Vector2D): \r\n    size (Vector2D): \r\n\r\nReturns:\r\n    EdGraphNode_Comment:",
+    "add_comment_to_nodes": "x.add_comment_to_nodes(comment_text, nodes, padding=50) -> EdGraphNode_Comment\r\nCreates a comment node that wraps the given nodes with the given padding.\nThe comment bounds are computed from the node positions plus padding.\r\n\r\nArgs:\r\n    comment_text (str): \r\n    nodes (Array[K2Node]): \r\n    padding (int32): \r\n\r\nReturns:\r\n    EdGraphNode_Comment:",
+    "add_component_bound_event_node": "x.add_component_bound_event_node(component, event_name) -> K2Node_ComponentBoundEvent\r\nCreates a UK2Node_ComponentBoundEvent in this event graph for the given component\nand delegate event name. Returns the existing node if one already exists.\nThe graph must be an event graph.\r\n\r\nArgs:\r\n    component (ActorComponent): \r\n    event_name (Name): \r\n\r\nReturns:\r\n    K2Node_ComponentBoundEvent:",
+    "add_custom_event_node": "x.add_custom_event_node(event_name) -> K2Node_CustomEvent\r\nCreates a UK2Node_CustomEvent node if the current graph is an event graph, using the provided EventName\r\n\r\nArgs:\r\n    event_name (str): \r\n\r\nReturns:\r\n    K2Node_CustomEvent:",
+    "add_dispatcher_event_node": "x.add_dispatcher_event_node(dispatcher_name, declaring_class=None) -> K2Node_Event\r\nCreates an event node in this event graph whose pins match the signature of the named dispatcher.\nThe current graph must be an Event Graph and the Blueprint must have a valid SkeletonGeneratedClass\n(i.e. it must have been compiled at least once). Returns nullptr if the graph is not an Event Graph,\nthe skeleton class is absent, or no dispatcher named DispatcherName exists on the Blueprint.\nWhen DeclaringClass is provided the dispatcher is only accepted if it is declared on exactly that\nclass, not merely inherited through it - use this to disambiguate between sibling classes that\nexpose a dispatcher under the same name.\r\n\r\nArgs:\r\n    dispatcher_name (Name): \r\n    declaring_class (type(Class)): \r\n\r\nReturns:\r\n    K2Node_Event:",
+    "add_get_local_variable_node": "x.add_get_local_variable_node(local_name) -> K2Node_VariableGet\r\nCreates a UK2Node_VariableGet for the provided local variable identified by LocalName\r\n\r\nArgs:\r\n    local_name (Name): \r\n\r\nReturns:\r\n    K2Node_VariableGet:",
+    "add_get_member_variable_node": "x.add_get_member_variable_node(member_name, class_path=\"\") -> K2Node_VariableGet\r\nCreates a UK2Node_VariableGet for the member variable identified by MemberName\nby default this will use the current class, provided a ClassPath to work\nwith a different class\r\n\r\nArgs:\r\n    member_name (Name): \r\n    class_path (str): \r\n\r\nReturns:\r\n    K2Node_VariableGet:",
+    "add_graph_input_parameter": "x.add_graph_input_parameter(input_name, pin_type=[], value=\"\") -> BlueprintGraphPin\r\nAdds a graph input parameter with name InputName, and optional PinType and Value. Returns the added pin.\nBy default the type will be a boolean as defined by UBlueprintEditorLibrary.\r\n\r\nArgs:\r\n    input_name (Name): \r\n    pin_type (EdGraphPinType): \r\n    value (str): \r\n\r\nReturns:\r\n    BlueprintGraphPin:",
+    "add_local_variable": "x.add_local_variable(local_name, pin_type=[], value=\"\") -> bool\r\nAdds a local variable, use BlueprintEditorLibrary to specify a type. A default value can optionally be provided.\nBy default the type will be a boolean as defined by UBlueprintEditorLibrary.\r\n\r\nArgs:\r\n    local_name (Name): \r\n    pin_type (EdGraphPinType): \r\n    value (str): \r\n\r\nReturns:\r\n    bool:",
+    "add_macro_node": "x.add_macro_node(macro_path) -> K2Node_MacroInstance\r\nCreates a UK2Node_MacroInstance in the current graph for the provided MacroPath\r\n\r\nArgs:\r\n    macro_path (str): \r\n\r\nReturns:\r\n    K2Node_MacroInstance:",
+    "add_member_variable": "x.add_member_variable(member_name, pin_type=[], value=\"\") -> bool\r\nAdds a member variable, use BlueprintEditorLibrary to specify a type. A default value can optionally be provided.\nBy default the type will be a boolean as defined by UBlueprintEditorLibrary.\r\n\r\nArgs:\r\n    member_name (Name): \r\n    pin_type (EdGraphPinType): \r\n    value (str): \r\n\r\nReturns:\r\n    bool:",
+    "add_node_pin": "x.add_node_pin(node) -> bool\r\nAdds a pin to a node that supports dynamic pin addition, such as a Switch node,\nSequence node, commutative binary operator (Add, Multiply), or Make Array node.\nReturns true on success, false if the node type does not support adding pins.\r\n\r\nArgs:\r\n    node (EdGraphNode): \r\n\r\nReturns:\r\n    bool:",
+    "add_return_node": "x.add_return_node() -> K2Node_FunctionResult\r\nCreates a UK2Node_FunctionResult in the current graph\r\n\r\nReturns:\r\n    K2Node_FunctionResult:",
+    "add_set_local_variable_node": "x.add_set_local_variable_node(local_name) -> K2Node_VariableSet\r\nCreates a UK2Node_VariableSet for the provided local variable identified by LocalName\r\n\r\nArgs:\r\n    local_name (Name): \r\n\r\nReturns:\r\n    K2Node_VariableSet:",
+    "add_set_member_variable_node": "x.add_set_member_variable_node(member_name, class_path=\"\") -> K2Node_VariableSet\r\nCreates a UK2Node_VariableSet for the member variable identified by MemberName\nby default this will use the current class, provided a ClassPath to work\nwith a different class\r\n\r\nArgs:\r\n    member_name (Name): \r\n    class_path (str): \r\n\r\nReturns:\r\n    K2Node_VariableSet:",
+    "create_node_from_name": "x.create_node_from_name(node_with_category, location, context_pins, declaring_class=None) -> EdGraphNode\r\nCreates node from Catagory and Name. Example:\n                     - 'Development|PrintString'\n                     - 'Utilities|Operators|Add'\n                     - 'Utilities|FlowControl|Branch'\n                     - 'Math|Vector|VectorLength'\nWhen multiple actions share the same Category|Name string , pass DeclaringClass to\nselect the action belonging to that specific class.\r\n\r\nArgs:\r\n    node_with_category (str): \r\n    location (Vector2D): \r\n    context_pins (Array[BlueprintGraphPin]): \r\n    declaring_class (type(Class)): \r\n\r\nReturns:\r\n    EdGraphNode:",
+    "find_event_node": "x.find_event_node(event_name) -> K2Node_Event\r\nReturns the event node associated with EventName - aka Member Name\nof the event. Names will not resolve against the display name, so e.g. 'Begin Play'\nis not a valid member name - instead search for ReceiveBeginPlay, the underlying\nBlueprintImplementableEvent\r\n\r\nArgs:\r\n    event_name (Name): \r\n\r\nReturns:\r\n    K2Node_Event:",
+    "get_local_variable_default_value": "x.get_local_variable_default_value(local_variable_name) -> Optional[str]\r\nReturns the default value of a local variable, unset if no variable is found.\r\n\r\nArgs:\r\n    local_variable_name (str): \r\n\r\nReturns:\r\n    Optional[str]:",
+    "get_local_variable_type": "x.get_local_variable_type(local_variable_name) -> Optional[EdGraphPinType]\r\nReturns the type of a local variable, unset if no variable is found.\r\n\r\nArgs:\r\n    local_variable_name (str): \r\n\r\nReturns:\r\n    Optional[EdGraphPinType]:",
+    "list_all_nodes": "x.list_all_nodes() -> Array[K2Node]\r\nLists all nodes in the graph\r\n\r\nReturns:\r\n    Array[K2Node]: \r\n\r\n    out_nodes (Array[K2Node]):",
+    "list_available_nodes": "x.list_available_nodes(context_pins) -> Array[str]\r\nList all of the nodes by name that can be added to this graph\r\n\r\nArgs:\r\n    context_pins (Array[BlueprintGraphPin]): \r\n\r\nReturns:\r\n    Array[str]: \r\n\r\n    result (Array[str]):",
+    "list_comment_nodes": "x.list_comment_nodes() -> Array[EdGraphNode_Comment]\r\nReturns all comment nodes in the current graph.\r\n\r\nReturns:\r\n    Array[EdGraphNode_Comment]:",
+    "list_local_variable_names": "x.list_local_variable_names() -> Array[str]\r\nLists the names of the local variables in the function.\r\n\r\nReturns:\r\n    Array[str]: \r\n\r\n    out_local_variable_names (Array[str]):",
+    "list_nodes_of_class": "x.list_nodes_of_class(class_) -> Array[K2Node]\r\nLists nodes of the type provided by the Class input\r\n\r\nArgs:\r\n    class_ (type(Class)): \r\n\r\nReturns:\r\n    Array[K2Node]: \r\n\r\n    out_nodes (Array[K2Node]):",
+    "list_nodes_with_errors": "x.list_nodes_with_errors() -> Array[K2Node]\r\nLists nodes with EMessageSeverity::Error level compiler messages\r\n\r\nReturns:\r\n    Array[K2Node]: \r\n\r\n    out_nodes (Array[K2Node]):",
+    "list_nodes_with_notes": "x.list_nodes_with_notes() -> Array[K2Node]\r\nLists nodes with EMessageSeverity::Info level compiler messages\r\n\r\nReturns:\r\n    Array[K2Node]: \r\n\r\n    out_nodes (Array[K2Node]):",
+    "list_nodes_with_warnings": "x.list_nodes_with_warnings() -> Array[K2Node]\r\nLists nodes with EMessageSeverity::Warning level compiler messages\r\n\r\nReturns:\r\n    Array[K2Node]: \r\n\r\n    out_nodes (Array[K2Node]):",
+    "remove_comment_node": "x.remove_comment_node(comment_node) -> None\r\nRemoves a comment node from the current graph.\r\n\r\nArgs:\r\n    comment_node (EdGraphNode_Comment):",
+    "remove_graph_input_parameter": "x.remove_graph_input_parameter(input_name) -> bool\r\nRemoves the graph input parameter specified by InputName\r\n\r\nArgs:\r\n    input_name (Name): \r\n\r\nReturns:\r\n    bool:",
+    "remove_local_variable": "x.remove_local_variable(local_name) -> bool\r\nRemoves the local variable with the corresponding name, returns true if there is a variable and it is removed\r\n\r\nArgs:\r\n    local_name (Name): \r\n\r\nReturns:\r\n    bool:",
+    "remove_member_variable": "x.remove_member_variable(member_name) -> bool\r\nRemoves the member variable with the corresponding name, returns true if there is a variable and it is removed\r\n\r\nArgs:\r\n    member_name (Name): \r\n\r\nReturns:\r\n    bool:",
+    "remove_node_pin": "x.remove_node_pin(node, pin) -> bool\r\nRemoves a specific pin from a node that supports dynamic pin removal, such as a Sequence\nnode, Switch node, commutative binary operator (Add, Multiply), or Make Array node.\nReturns true on success, false if the node type does not support removing pins or the\npin cannot be removed (e.g. minimum pin count reached).\r\n\r\nArgs:\r\n    node (EdGraphNode): \r\n    pin (BlueprintGraphPin): \r\n\r\nReturns:\r\n    bool:",
+    "remove_nodes": "x.remove_nodes(nodes) -> None\r\nRemoves (aka deletes) the provided nodes from the current graph\r\n\r\nArgs:\r\n    nodes (Array[K2Node]):",
+    "retarget_node_class": "x.retarget_node_class(node, old_class, new_class) -> bool\r\nReplaces a node's baked-in class reference from OldClass to NewClass and reconstructs\nthe node so its pins reflect the new type. Handles the following node kinds:\n  - UK2Node_DynamicCast     (TargetType)\n  - UK2Node_CallFunction    (FunctionReference)\n  - UK2Node_Event           (EventReference)\n  - UK2Node_BaseMCDelegate  (DelegateReference - covers all multicast delegate nodes)\nReturns true if the node was retargeted or already references NewClass.\nReturns false if the node type is unsupported or its current class reference does not match OldClass.\r\n\r\nArgs:\r\n    node (EdGraphNode): \r\n    old_class (type(Class)): \r\n    new_class (type(Class)): \r\n\r\nReturns:\r\n    bool:",
+    "set_local_variable_default_value": "x.set_local_variable_default_value(local_variable_name, new_default_value) -> bool\r\nSet default value of a local variable. Returns false if the operation fails\neither because the value is invalid or there is no variable of the specified name.\r\n\r\nArgs:\r\n    local_variable_name (str): \r\n    new_default_value (str): \r\n\r\nReturns:\r\n    bool:"
+  },
+  "movement": {
+    "set_use_automatic_gears": "x.set_use_automatic_gears(use_auto) -> None\r\nSet the flag that will be used to select auto-gears\r\n\r\nArgs:\r\n    use_auto (bool):",
+    "set_target_gear": "x.set_target_gear(gear_num, immediate) -> None\r\nSet the user input for gear (-1 reverse, 0 neutral, 1+ forward)\r\n\r\nArgs:\r\n    gear_num (int32): \r\n    immediate (bool):",
+    "get_use_auto_gears": "x.get_use_auto_gears() -> bool\r\nAre gears being changed automatically?\r\n\r\nReturns:\r\n    bool:",
+    "get_current_gear": "x.get_current_gear() -> int32\r\nGet current gear\r\n\r\nReturns:\r\n    int32:"
+  },
+  "nodes": [
+    {
+      "name": "K2Node_Event_0",
+      "title": "Event Tick",
+      "pins": [
+        {
+          "name": "OutputDelegate",
+          "links": []
+        },
+        {
+          "name": "then",
+          "links": [
+            "K2Node_CallFunction_23:execute"
+          ]
+        },
+        {
+          "name": "DeltaSeconds",
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "K2Node_CallFunction_23",
+      "title": "SetAngularDamping",
+      "pins": [
+        {
+          "name": "execute",
+          "links": [
+            "K2Node_Event_0:then"
+          ]
+        },
+        {
+          "name": "self",
+          "links": [
+            "K2Node_VariableGet_1:Mesh"
+          ]
+        },
+        {
+          "name": "InDamping",
+          "links": [
+            "K2Node_CallFunction_7:ReturnValue"
+          ]
+        },
+        {
+          "name": "then",
+          "links": [
+            "K2Node_CallFunction_25:execute"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "K2Node_CallFunction_25",
+      "title": "ZafiraCameraLook",
+      "pins": [
+        {
+          "name": "execute",
+          "links": [
+            "K2Node_CallFunction_23:then"
+          ]
+        },
+        {
+          "name": "self",
+          "links": []
+        },
+        {
+          "name": "then",
+          "links": []
+        }
+      ]
+    }
+  ],
+  "/Script/Engine.PlayerController.WasInputKeyJustPressed": [
+    "self",
+    "Key",
+    "ReturnValue"
+  ],
+  "/Script/Engine.KismetSystemLibrary.PrintString": [
+    "execute",
+    "InString",
+    "bPrintToScreen",
+    "bPrintToLog",
+    "TextColor",
+    "Duration",
+    "Key",
+    "then"
+  ],
+  "/Script/ChaosVehicles.ChaosVehicleMovementComponent.SetUseAutomaticGears": [
+    "execute",
+    "self",
+    "bUseAuto",
+    "then"
+  ]
+}

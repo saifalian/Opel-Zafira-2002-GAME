@@ -1,0 +1,3 @@
+{
+  "error": "Traceback (most recent call last):\n  File \"D:/unreal engine/project/ZafiraDrive/Scripts/build_cameras.py\", line 74, in <module>\n    n=event.add_call_function_node(base+'.BP_VehicleAdvPawnBase_C:'+fun);assert n,fun\n                                                                         ^^^^^^^^^^^^\nAssertionError: ZafiraCycleCamera\n"
+}

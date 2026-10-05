@@ -1,0 +1,392 @@
+{
+  "BlueprintEditorLibrary": {
+    "change_member_variable_type": "X.change_member_variable_type(blueprint, variable_name, new_type) -> None\r\nChanges the specified member variable's type - inherited variables must have their type changed at the point of declaration\r\n\r\nArgs:\r\n    blueprint (Blueprint): \r\n    variable_name (Name): \r\n    new_type (EdGraphPinType):",
+    "get_array_type": "X.get_array_type(contained_type) -> EdGraphPinType\r\n\r\n\r\nArgs:\r\n    contained_type (EdGraphPinType): \r\n\r\nReturns:\r\n    EdGraphPinType: a array of ContainedType type - returns 'int' type if invalid type is provided",
+    "get_basic_type_by_name": "X.get_basic_type_by_name(type_name) -> EdGraphPinType\r\n\r\n\r\nArgs:\r\n    type_name (Name): \r\n\r\nReturns:\r\n    EdGraphPinType: a pintype for 'int', 'byte', 'bool', 'real', 'name', 'string' or 'text' - returns 'int' type if invalid type is provided",
+    "get_class_reference_type": "X.get_class_reference_type(class_type) -> EdGraphPinType\r\n\r\n\r\nArgs:\r\n    class_type (type(Class)): \r\n\r\nReturns:\r\n    EdGraphPinType: a class reference pintype for the provided class - returns 'int' type if invalid class is provided",
+    "get_map_type": "X.get_map_type(key_type, value_type) -> EdGraphPinType\r\n\r\n\r\nArgs:\r\n    key_type (EdGraphPinType): \r\n    value_type (EdGraphPinType): \r\n\r\nReturns:\r\n    EdGraphPinType: a map of KeyType to ValueType type - returns 'int' type if invalid type is provided",
+    "get_member_variable_type": "X.get_member_variable_type(blueprint, member_variable_name) -> Optional[EdGraphPinType]\r\nReturns the type of a member variable, unset if no variable is found. Inherited variables can be requested using a fully qualified name to avoid ambiguities.\r\n\r\nArgs:\r\n    blueprint (Blueprint): \r\n    member_variable_name (str): \r\n\r\nReturns:\r\n    Optional[EdGraphPinType]:",
+    "get_object_reference_type": "X.get_object_reference_type(object_type) -> EdGraphPinType\r\n\r\n\r\nArgs:\r\n    object_type (type(Class)): \r\n\r\nReturns:\r\n    EdGraphPinType: a object reference pintype for the provided class - returns 'int' type if invalid object type is provided",
+    "get_set_type": "X.get_set_type(contained_type) -> EdGraphPinType\r\n\r\n\r\nArgs:\r\n    contained_type (EdGraphPinType): \r\n\r\nReturns:\r\n    EdGraphPinType: a set of ContainedType type - returns 'int' type if invalid type is provided",
+    "get_struct_type": "X.get_struct_type(struct_type) -> EdGraphPinType\r\n\r\n\r\nArgs:\r\n    struct_type (ScriptStruct): \r\n\r\nReturns:\r\n    EdGraphPinType: a pintype for the provided struct - returns 'int' type if invalid struct is provided",
+    "get_typed_outer": "get_typed_outer(self, type: Union[Class, type]) -> Any -- get the first outer object of the given type from this instance (if any)",
+    "pin_type_to_json_schema": "X.pin_type_to_json_schema(pin_type, self_context) -> str\r\n\r\nA: json schema string describing the type\r\n\r\nArgs:\r\n    pin_type (EdGraphPinType): \r\n    self_context (type(Class)): \r\n\r\nReturns:\r\n    str:"
+  },
+  "BlueprintGraphEditor": {
+    "add_component_bound_event_node": "x.add_component_bound_event_node(component, event_name) -> K2Node_ComponentBoundEvent\r\nCreates a UK2Node_ComponentBoundEvent in this event graph for the given component\nand delegate event name. Returns the existing node if one already exists.\nThe graph must be an event graph.\r\n\r\nArgs:\r\n    component (ActorComponent): \r\n    event_name (Name): \r\n\r\nReturns:\r\n    K2Node_ComponentBoundEvent:",
+    "get_local_variable_type": "x.get_local_variable_type(local_variable_name) -> Optional[EdGraphPinType]\r\nReturns the type of a local variable, unset if no variable is found.\r\n\r\nArgs:\r\n    local_variable_name (str): \r\n\r\nReturns:\r\n    Optional[EdGraphPinType]:",
+    "get_typed_outer": "get_typed_outer(self, type: Union[Class, type]) -> Any -- get the first outer object of the given type from this instance (if any)",
+    "list_component_events": "x.list_component_events(component) -> Array[Name]\r\nReturns the names of all bindable delegate events on the given component.\r\n\r\nArgs:\r\n    component (ActorComponent): \r\n\r\nReturns:\r\n    Array[Name]:"
+  },
+  "SubobjectDataSubsystem": {
+    "add_new_subobject": "x.add_new_subobject(params) -> (SubobjectDataHandle, fail_reason=Text)\r\nAdd a new subobject as a child to the given parent object\r\n\r\nArgs:\r\n    params (AddNewSubobjectParams): Options to consider when adding this subobject\r\n\r\nReturns:\r\n    Text: FSubobjectDataHandle          Handle to the newly created subobject, Invalid handle if creation failed\r\n\r\n    fail_reason (Text):",
+    "attach_subobject": "x.attach_subobject(owner_handle, child_to_add_handle) -> bool\r\nAdd the given subobject to a new owner. This will remove the subobject from its previous\nowner if necessary.\r\n\r\nArgs:\r\n    owner_handle (SubobjectDataHandle): The new owner to attach to\r\n    child_to_add_handle (SubobjectDataHandle): Handle to the subobject that will become a child of the owner\r\n\r\nReturns:\r\n    bool: true if the child was added successfully",
+    "can_copy_subobjects": "x.can_copy_subobjects(handles) -> bool\r\nReturns true if the given array of handles represents subobjects that\ncan be copied.\r\n\r\nArgs:\r\n    handles (Array[SubobjectDataHandle]): \r\n\r\nReturns:\r\n    bool:",
+    "can_paste_subobjects": "x.can_paste_subobjects(root_handle, bp_context=None) -> bool\r\nCan Paste Subobjects\r\n\r\nArgs:\r\n    root_handle (SubobjectDataHandle): \r\n    bp_context (Blueprint): \r\n\r\nReturns:\r\n    bool:",
+    "change_subobject_class": "x.change_subobject_class(handle, new_class) -> bool\r\nAttempts to change the subclass of a native component\r\n\r\nArgs:\r\n    handle (SubobjectDataHandle): Handle to the subobject to change class of\r\n    new_class (type(Class)): The new class that is desired for the given subobject\r\n\r\nReturns:\r\n    bool: True if the class change was successful, false otherwise.",
+    "copy_subobjects": "x.copy_subobjects(handles, bp_context) -> None\r\nCopy Subobjects\r\n\r\nArgs:\r\n    handles (Array[SubobjectDataHandle]): \r\n    bp_context (Blueprint):",
+    "create_new_bp_component": "X.create_new_bp_component(component_class, new_class_path, new_class_name) -> type(Class)\r\nCreates a new Blueprint component from the specified class type\nThe user will be prompted to pick a new subclass name and a blueprint asset will be created\r\n\r\nArgs:\r\n    component_class (type(Class)): \r\n    new_class_path (str): \r\n    new_class_name (str): \r\n\r\nReturns:\r\n    type(Class): The new class that was created",
+    "create_new_cpp_component": "X.create_new_cpp_component(component_class, new_class_path, new_class_name) -> type(Class)\r\nCreates a new C++ component from the specified class type\nThe user will be prompted to pick a new subclass name and code will be recompiled\r\n\r\nArgs:\r\n    component_class (type(Class)): \r\n    new_class_path (str): \r\n    new_class_name (str): \r\n\r\nReturns:\r\n    type(Class): The new class that was created",
+    "delete_subobject": "x.delete_subobject(context_handle, subobject_to_delete, bp_context=None) -> int32\r\nAttempts to delete the given subobject from its blueprint context\r\n\r\nArgs:\r\n    context_handle (SubobjectDataHandle): The owning context of the subobjects that should be removed\r\n    subobject_to_delete (SubobjectDataHandle): The subobject handles that should be deleted\r\n    bp_context (Blueprint): The blueprint context for the given\r\n\r\nReturns:\r\n    int32: The number of subobjects successfully deleted",
+    "delete_subobjects": "x.delete_subobjects(context_handle, subobjects_to_delete, bp_context=None) -> int32\r\nAttempts to delete the given array of subobjects from their context\r\n\r\nArgs:\r\n    context_handle (SubobjectDataHandle): The owning context of the subobjects that should be removed\r\n    subobjects_to_delete (Array[SubobjectDataHandle]): Array of subobject handles that should be deleted\r\n    bp_context (Blueprint): The blueprint context for the given\r\n\r\nReturns:\r\n    int32: The number of subobjects successfully deleted",
+    "detach_subobject": "x.detach_subobject(owner_handle, child_to_remove) -> bool\r\nRemove the child subobject from the owner\r\n\r\nArgs:\r\n    owner_handle (SubobjectDataHandle): \r\n    child_to_remove (SubobjectDataHandle): \r\n\r\nReturns:\r\n    bool: True if the child was successfully removed.",
+    "duplicate_subobjects": "x.duplicate_subobjects(context, subobjects_to_dup, bp_context) -> Array[SubobjectDataHandle]\r\nDuplicate the given array of subobjects on the context.\r\n\r\nArgs:\r\n    context (SubobjectDataHandle): The owning context that the subobjects to dup come from\r\n    subobjects_to_dup (Array[SubobjectDataHandle]): Array of handles of existing subobjects you would like to have duplicated\r\n    bp_context (Blueprint): Pointer to the current blueprint context if necessary. Use nullptr if dealing with instances\r\n\r\nReturns:\r\n    Array[SubobjectDataHandle]: \r\n\r\n    out_new_subobjects (Array[SubobjectDataHandle]): Array that will be populated with any newly created subobjects",
+    "get_typed_outer": "get_typed_outer(self, type: Union[Class, type]) -> Any -- get the first outer object of the given type from this instance (if any)",
+    "k2_delete_subobject_from_instance": "x.k2_delete_subobject_from_instance(context_handle, subobject_to_delete) -> int32\r\nAttempts to delete the given subobject from its context\r\n\r\nArgs:\r\n    context_handle (SubobjectDataHandle): The owning context of the subobjects that should be removed\r\n    subobject_to_delete (SubobjectDataHandle): The subobject handles that should be deleted\r\n\r\nReturns:\r\n    int32: The number of subobjects successfully deleted",
+    "k2_delete_subobjects_from_instance": "x.k2_delete_subobjects_from_instance(context_handle, subobjects_to_delete) -> int32\r\nAttempts to delete the given array of subobjects from their context\r\n\r\nArgs:\r\n    context_handle (SubobjectDataHandle): The owning context of the subobjects that should be removed\r\n    subobjects_to_delete (Array[SubobjectDataHandle]): Array of subobject handles that should be deleted\r\n\r\nReturns:\r\n    int32: The number of subobjects successfully deleted",
+    "k2_find_subobject_data_from_handle": "x.k2_find_subobject_data_from_handle(handle) -> SubobjectData or None\r\nAttempt to find the subobject data for a given handle. OutData will only\nbe valid if the function returns true.\r\n\r\nArgs:\r\n    handle (SubobjectDataHandle): Handle of the subobject data you want to acquire\r\n\r\nReturns:\r\n    SubobjectData or None: bool          true if the data was found\r\n\r\n    out_data (SubobjectData): Reference to the subobject data to populate",
+    "k2_gather_subobject_data_for_blueprint": "x.k2_gather_subobject_data_for_blueprint(context) -> Array[SubobjectDataHandle]\r\nGather all subobjects that the given Blueprint context has. Populates an array of\nhandles that will have the given context and all it's subobjects.\r\n\r\nArgs:\r\n    context (Blueprint): Object to gather subobjects for\r\n\r\nReturns:\r\n    Array[SubobjectDataHandle]: \r\n\r\n    out_array (Array[SubobjectDataHandle]): Array to populate (will be emptied first)",
+    "k2_gather_subobject_data_for_instance": "x.k2_gather_subobject_data_for_instance(context) -> Array[SubobjectDataHandle]\r\nGather all subobjects that the given actor instance has. Populates an array of\nhandles that will have the given context and all it's subobjects.\r\n\r\nArgs:\r\n    context (Actor): Object to gather subobjects for\r\n\r\nReturns:\r\n    Array[SubobjectDataHandle]: \r\n\r\n    out_array (Array[SubobjectDataHandle]): Array to populate (will be emptied first)",
+    "paste_subobjects": "x.paste_subobjects(paste_to_context, new_parent_handles, bp_context) -> Array[SubobjectDataHandle]\r\nPastes the given subobjects to the PasteToContext.\r\n\r\nArgs:\r\n    paste_to_context (SubobjectDataHandle): The subobject to paste things onto\r\n    new_parent_handles (Array[SubobjectDataHandle]): Array of Subobject Handles that you would like to paste\r\n    bp_context (Blueprint): Blueprint to use, if you are pasting to a blueprint. Null if pasting to an instanced object\r\n\r\nReturns:\r\n    Array[SubobjectDataHandle]: \r\n\r\n    out_pasted_handles (Array[SubobjectDataHandle]): Array populated with the handles to the newly pasted subobjects",
+    "rename_subobject": "x.rename_subobject(handle, new_name) -> bool\r\nAttempts to rename the given subobject to the new name.\r\n\r\nArgs:\r\n    handle (SubobjectDataHandle): Handle to the subobject to rename\r\n    new_name (Text): The new name that is desired for the given subobject\r\n\r\nReturns:\r\n    bool: True if the rename was successful, false otherwise.",
+    "rename_subobject_member_variable": "X.rename_subobject_member_variable(bp_context, handle, new_name) -> None\r\nRename Subobject Member Variable\r\n\r\nArgs:\r\n    bp_context (Blueprint): \r\n    handle (SubobjectDataHandle): \r\n    new_name (Name):",
+    "reparent_subobject": "x.reparent_subobject(params, to_reparent_handle) -> bool\r\nAttempts to reparent the given subobject to the new parent\r\n\r\nArgs:\r\n    params (ReparentSubobjectParams): \r\n    to_reparent_handle (SubobjectDataHandle): The handle of the subobject that will get moved\r\n\r\nReturns:\r\n    bool: True if the reparent was successful, false otherwise.",
+    "reparent_subobjects": "x.reparent_subobjects(params, handles_to_move) -> bool\r\nAttempts to reparent all subobjects in the HandlesToMove array to the new parent handle.\r\n\r\nArgs:\r\n    params (ReparentSubobjectParams): \r\n    handles_to_move (Array[SubobjectDataHandle]): \r\n\r\nReturns:\r\n    bool:"
+  },
+  "nodes": [
+    [
+      "K2Node_CallFunction_20",
+      "IsMovingOnGround"
+    ],
+    [
+      "K2Node_Event_0",
+      "Event Tick"
+    ],
+    [
+      "K2Node_VariableGet_1",
+      "Get Mesh"
+    ],
+    [
+      "K2Node_CallFunction_23",
+      "SetAngularDamping"
+    ],
+    [
+      "K2Node_CallFunction_7",
+      "SelectFloat"
+    ],
+    [
+      "K2Node_Event_11",
+      "Event BeginPlay"
+    ],
+    [
+      "K2Node_VariableGet_10",
+      "Get VehicleMovementComponent"
+    ],
+    [
+      "K2Node_DynamicCast_2",
+      "Cast To ChaosWheeledVehicleMovementComponent"
+    ],
+    [
+      "K2Node_VariableSet_1",
+      "Set Chaos Wheeled Vehicle Movement Component"
+    ],
+    [
+      "K2Node_VariableGet_14",
+      "Get Chaos Wheeled Vehicle Movement Component"
+    ],
+    [
+      "K2Node_CallFunction_34",
+      "SetSteeringInput"
+    ],
+    [
+      "K2Node_CallFunction_17",
+      "SetHandbrakeInput"
+    ],
+    [
+      "K2Node_CallFunction_36",
+      "SetHandbrakeInput"
+    ],
+    [
+      "K2Node_CallFunction_30",
+      "SetThrottleInput"
+    ],
+    [
+      "K2Node_CallFunction_39",
+      "SetBrakeInput"
+    ],
+    [
+      "K2Node_VariableGet_3",
+      "Get VehicleMovementComponent"
+    ],
+    [
+      "K2Node_VariableGet_24",
+      "Get VehicleMovementComponent"
+    ],
+    [
+      "K2Node_CallFunction_4",
+      "Set Relative Rotation"
+    ],
+    [
+      "K2Node_CallFunction_44",
+      "Add Local Rotation"
+    ],
+    [
+      "K2Node_CallFunction_16",
+      "FInterpTo"
+    ],
+    [
+      "K2Node_CallFunction_18",
+      "GetWorldDeltaSeconds"
+    ],
+    [
+      "K2Node_VariableGet_6",
+      "Get"
+    ],
+    [
+      "K2Node_VariableGet_7",
+      "Get BackCamera"
+    ],
+    [
+      "K2Node_VariableGet_11",
+      "Get FrontCamera"
+    ],
+    [
+      "K2Node_CallFunction_32",
+      "Activate"
+    ],
+    [
+      "K2Node_MacroInstance_0",
+      "Flip Flop"
+    ],
+    [
+      "K2Node_CallFunction_29",
+      "Activate"
+    ],
+    [
+      "K2Node_CallFunction_33",
+      "Deactivate"
+    ],
+    [
+      "K2Node_VariableGet_8",
+      "Get BackCamera"
+    ],
+    [
+      "K2Node_VariableGet_9",
+      "Get FrontCamera"
+    ],
+    [
+      "K2Node_CallFunction_11",
+      "Set Actor Transform"
+    ],
+    [
+      "K2Node_CallFunction_13",
+      "MakeTransform"
+    ],
+    [
+      "K2Node_CallFunction_19",
+      "Get Actor Location"
+    ],
+    [
+      "K2Node_PromotableOperator_2",
+      "vector + vector"
+    ],
+    [
+      "K2Node_CallFunction_15",
+      "Get Actor Rotation"
+    ],
+    [
+      "K2Node_VariableGet_12",
+      "Get Mesh"
+    ],
+    [
+      "K2Node_CallFunction_21",
+      "SetPhysicsAngularVelocityInDegrees"
+    ],
+    [
+      "K2Node_CallFunction_22",
+      "SetPhysicsLinearVelocity"
+    ],
+    [
+      "K2Node_VariableGet_13",
+      "Get Mesh"
+    ],
+    [
+      "K2Node_EnhancedInputAction_0",
+      "EnhancedInputAction IA_Throttle"
+    ],
+    [
+      "K2Node_EnhancedInputAction_1",
+      "EnhancedInputAction IA_Brake"
+    ],
+    [
+      "K2Node_EnhancedInputAction_2",
+      "EnhancedInputAction IA_Handbrake"
+    ],
+    [
+      "K2Node_EnhancedInputAction_3",
+      "EnhancedInputAction IA_LookAround"
+    ],
+    [
+      "K2Node_CustomEvent_0",
+      "InterpsToOriginalRotation"
+    ],
+    [
+      "K2Node_EnhancedInputAction_5",
+      "EnhancedInputAction IA_Reset"
+    ],
+    [
+      "K2Node_EnhancedInputAction_6",
+      "EnhancedInputAction IA_Steering"
+    ],
+    [
+      "K2Node_CallFunction_103",
+      "InterpsToOriginalRotation"
+    ],
+    [
+      "K2Node_EnhancedInputAction_7",
+      "EnhancedInputAction IA_ToggleCamera"
+    ],
+    [
+      "K2Node_VariableGet_16",
+      "Get BackSpringArm"
+    ],
+    [
+      "K2Node_VariableGet_17",
+      "Get BackSpringArm"
+    ],
+    [
+      "K2Node_VariableGet_15",
+      "Get BackSpringArm"
+    ],
+    [
+      "K2Node_CallFunction_63",
+      "BrakeLights"
+    ],
+    [
+      "K2Node_CallFunction_62",
+      "BrakeLights"
+    ],
+    [
+      "K2Node_CallFunction_40",
+      "BrakeLights"
+    ],
+    [
+      "K2Node_CallFunction_64",
+      "BrakeLights"
+    ],
+    [
+      "K2Node_CallFunction_31",
+      "SetBrakeInput"
+    ],
+    [
+      "K2Node_CallFunction_12",
+      "Set Timer by Function Name"
+    ],
+    [
+      "K2Node_CustomEvent_1",
+      "Manual Reset"
+    ],
+    [
+      "K2Node_Knot_0",
+      "Reroute Node"
+    ],
+    [
+      "K2Node_Event_3",
+      "Event Primary Thumbstick"
+    ],
+    [
+      "K2Node_CallFunction_38",
+      "SetThrottleInput"
+    ],
+    [
+      "K2Node_CallFunction_26",
+      "SetSteeringInput"
+    ],
+    [
+      "K2Node_VariableGet_20",
+      "Get VehicleMovementComponent"
+    ],
+    [
+      "K2Node_Event_6",
+      "Event Touch Handbrake Start"
+    ],
+    [
+      "K2Node_Event_7",
+      "Event Touch Handbrake End"
+    ],
+    [
+      "K2Node_IfThenElse_1",
+      "Branch"
+    ],
+    [
+      "K2Node_CallFunction_42",
+      "SetBrakeInput"
+    ],
+    [
+      "K2Node_PromotableOperator_1",
+      "float >= float"
+    ],
+    [
+      "K2Node_Event_8",
+      "Event Secondary Thumbstick"
+    ],
+    [
+      "K2Node_CallFunction_9",
+      "Add Local Rotation"
+    ],
+    [
+      "K2Node_Event_9",
+      "Event Touch Toggle Camera"
+    ],
+    [
+      "K2Node_Event_10",
+      "Event Touch Reset"
+    ],
+    [
+      "K2Node_Knot_2",
+      "Reroute Node"
+    ],
+    [
+      "K2Node_Knot_3",
+      "Reroute Node"
+    ],
+    [
+      "K2Node_Knot_4",
+      "Reroute Node"
+    ],
+    [
+      "K2Node_PromotableOperator_0",
+      "float * float"
+    ],
+    [
+      "K2Node_CallFunction_27",
+      "SetThrottleInput"
+    ],
+    [
+      "K2Node_CallFunction_35",
+      "SetBrakeInput"
+    ],
+    [
+      "K2Node_CallFunction_41",
+      "BrakeLights"
+    ],
+    [
+      "K2Node_CallFunction_65",
+      "BrakeLights"
+    ],
+    [
+      "K2Node_MacroInstance_1",
+      "Do Once"
+    ],
+    [
+      "K2Node_CallFunction_14",
+      "Delay"
+    ],
+    [
+      "K2Node_ExecutionSequence_0",
+      "Sequence"
+    ],
+    [
+      "K2Node_CallFunction_24",
+      "ZafiraCycleCamera"
+    ],
+    [
+      "K2Node_CallFunction_25",
+      "ZafiraCameraLook"
+    ],
+    [
+      "K2Node_CallFunction_28",
+      "ZafiraTransmissionInput"
+    ]
+  ]
+}

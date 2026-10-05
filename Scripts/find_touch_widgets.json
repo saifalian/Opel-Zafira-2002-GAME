@@ -1,0 +1,10 @@
+{
+  "wt": "<Object '/Game/VehicleTemplate/Input/UI_Touch_Vehicle.UI_Touch_Vehicle:WidgetTree' (0x0000014E43EA3520) Class 'WidgetTree'>",
+  "CanvasPanel_0": "None",
+  "CanvasPanel": "None",
+  "Thumbstick_Left": "None",
+  "Gas": "None",
+  "Brake": "None",
+  "Button_Throttle": "None",
+  "Button_Brake": "None"
+}

@@ -1,0 +1,21 @@
+{
+  "class": "InputMappingContextMappingData",
+  "dir": [
+    "assign",
+    "cast",
+    "copy",
+    "export_text",
+    "get_editor_property",
+    "import_text",
+    "mappings",
+    "set_editor_properties",
+    "set_editor_property",
+    "static_struct",
+    "to_dict",
+    "to_tuple"
+  ],
+  "tuple": "(<Array object at 0x0000020BB677DEF0>,)",
+  "dict": {
+    "mappings": "[{triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Reset.IA_Reset'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera'\", key: {}}, {triggers: , modifiers: , action: \"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera'\", key: {}}]"
+  }
+}

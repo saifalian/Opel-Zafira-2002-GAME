@@ -1,0 +1,24 @@
+{
+  "/Game/VehicleTemplate/Input/IMC_Vehicle_MouseLook": {
+    "class": "InputMappingContext",
+    "export_error": "'InputMappingContext' object has no attribute 'export_text'",
+    "mappings": "[]",
+    "default_key_mappings": "<Struct 'InputMappingContextMappingData' (0x00000275C8952980) {mappings: ((Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_LookAround.IA_LookAround'\",Key=MouseX))}>"
+  },
+  "/Game/VehicleTemplate/Input/IMC_Vehicle_Default": {
+    "class": "InputMappingContext",
+    "export_error": "'InputMappingContext' object has no attribute 'export_text'",
+    "mappings": "[]",
+    "default_key_mappings": "<Struct 'InputMappingContextMappingData' (0x00000275C895AF40) {mappings: ((Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=W),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=Up),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=S),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=Down),(Modifiers=(\"/Script/EnhancedInput.InputModifierNegate'/Game/VehicleTemplate/Input/ZafiraSteerLeft_NegateAsset.ZafiraSteerLeft_NegateAsset'\"),Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A),(Modifiers=(\"/Script/EnhancedInput.InputModifierNegate'/Game/VehicleTemplate/Input/ZafiraSteerLeft_NegateAsset.ZafiraSteerLeft_NegateAsset'\"),Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Left),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=D),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Right),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\",Key=SpaceBar),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Reset.IA_Reset'\",Key=BackSpace),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera'\",Key=Tab),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Headlights.IA_Headlights'\",Key=L))}>"
+  },
+  "/Game/VehicleTemplate/Input/TI_ZafiraMobile": {
+    "class": "TouchInterface",
+    "export_error": "'TouchInterface' object has no attribute 'export_text'",
+    "controls": "[{}, {}, {}, {}, {}, {}, {}]"
+  },
+  "/Game/VehicleTemplate/Input/TI_ZafiraRequestedMobile": {
+    "class": "TouchInterface",
+    "export_error": "'TouchInterface' object has no attribute 'export_text'",
+    "controls": "[{}, {}, {}, {}, {}, {}, {}]"
+  }
+}

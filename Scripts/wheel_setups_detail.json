@@ -1,0 +1,150 @@
+{
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase": [
+    {
+      "i": 0,
+      "str": "<Struct 'ChaosWheelSetup' (0x00000211E6C405D0) {}>",
+      "dict": {},
+      "dir": [
+        "assign",
+        "cast",
+        "copy",
+        "export_text",
+        "get_editor_property",
+        "import_text",
+        "set_editor_properties",
+        "set_editor_property",
+        "static_struct",
+        "to_dict",
+        "to_tuple"
+      ]
+    },
+    {
+      "i": 1,
+      "str": "<Struct 'ChaosWheelSetup' (0x00000211E6C431E0) {}>",
+      "dict": {},
+      "dir": [
+        "assign",
+        "cast",
+        "copy",
+        "export_text",
+        "get_editor_property",
+        "import_text",
+        "set_editor_properties",
+        "set_editor_property",
+        "static_struct",
+        "to_dict",
+        "to_tuple"
+      ]
+    },
+    {
+      "i": 2,
+      "str": "<Struct 'ChaosWheelSetup' (0x00000211E6C43480) {}>",
+      "dict": {},
+      "dir": [
+        "assign",
+        "cast",
+        "copy",
+        "export_text",
+        "get_editor_property",
+        "import_text",
+        "set_editor_properties",
+        "set_editor_property",
+        "static_struct",
+        "to_dict",
+        "to_tuple"
+      ]
+    },
+    {
+      "i": 3,
+      "str": "<Struct 'ChaosWheelSetup' (0x00000211E6C4E8B0) {}>",
+      "dict": {},
+      "dir": [
+        "assign",
+        "cast",
+        "copy",
+        "export_text",
+        "get_editor_property",
+        "import_text",
+        "set_editor_properties",
+        "set_editor_property",
+        "static_struct",
+        "to_dict",
+        "to_tuple"
+      ]
+    }
+  ],
+  "/Game/Zafira/BP_Zafira": [
+    {
+      "i": 0,
+      "str": "<Struct 'ChaosWheelSetup' (0x00000211E6C48E50) {}>",
+      "dict": {},
+      "dir": [
+        "assign",
+        "cast",
+        "copy",
+        "export_text",
+        "get_editor_property",
+        "import_text",
+        "set_editor_properties",
+        "set_editor_property",
+        "static_struct",
+        "to_dict",
+        "to_tuple"
+      ]
+    },
+    {
+      "i": 1,
+      "str": "<Struct 'ChaosWheelSetup' (0x00000211E6C4DEF0) {}>",
+      "dict": {},
+      "dir": [
+        "assign",
+        "cast",
+        "copy",
+        "export_text",
+        "get_editor_property",
+        "import_text",
+        "set_editor_properties",
+        "set_editor_property",
+        "static_struct",
+        "to_dict",
+        "to_tuple"
+      ]
+    },
+    {
+      "i": 2,
+      "str": "<Struct 'ChaosWheelSetup' (0x00000211E6C47FE0) {}>",
+      "dict": {},
+      "dir": [
+        "assign",
+        "cast",
+        "copy",
+        "export_text",
+        "get_editor_property",
+        "import_text",
+        "set_editor_properties",
+        "set_editor_property",
+        "static_struct",
+        "to_dict",
+        "to_tuple"
+      ]
+    },
+    {
+      "i": 3,
+      "str": "<Struct 'ChaosWheelSetup' (0x00000211E6C4DEC0) {}>",
+      "dict": {},
+      "dir": [
+        "assign",
+        "cast",
+        "copy",
+        "export_text",
+        "get_editor_property",
+        "import_text",
+        "set_editor_properties",
+        "set_editor_property",
+        "static_struct",
+        "to_dict",
+        "to_tuple"
+      ]
+    }
+  ]
+}

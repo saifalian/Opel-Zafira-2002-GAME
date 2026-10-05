@@ -1,0 +1,36 @@
+{
+  "VehicleMesh": {
+    "component": "VehicleMesh",
+    "mesh": "<Object '/Game/Zafira/Meshes/SKM_ZafiraAligned.SKM_ZafiraAligned' (0x000001B319FFF000) Class 'SkeletalMesh'>",
+    "bones": [
+      "Root",
+      "Phys_Wheel_FL",
+      "Phys_Wheel_BL",
+      "Phys_Wheel_FR",
+      "Phys_Wheel_BR",
+      "Axle_Front",
+      "Axle_Damper_FL",
+      "Axle_Damper_FR",
+      "Axle_Back",
+      "Axle_Damper_BL",
+      "Axle_Damper_BR",
+      "Damper_FL",
+      "Damper_FR",
+      "Damper_BL",
+      "Damper_BR",
+      "Phys_Wheel_FL_end",
+      "Phys_Wheel_BL_end",
+      "Phys_Wheel_FR_end",
+      "Phys_Wheel_BR_end",
+      "Axle_Damper_FL_end",
+      "Axle_Damper_FR_end",
+      "Axle_Damper_BL_end",
+      "Axle_Damper_BR_end",
+      "Damper_FL_end",
+      "Damper_FR_end",
+      "Damper_BL_end",
+      "Damper_BR_end"
+    ],
+    "sockets_err": "'SkeletalMesh' object has no attribute 'get_sockets'"
+  }
+}

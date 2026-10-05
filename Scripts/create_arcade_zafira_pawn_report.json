@@ -1,0 +1,6 @@
+{
+  "success": true,
+  "pawn": "/Game/Zafira/BP_ZafiraArcadePawn",
+  "mesh": "<Object '/Game/Zafira/Meshes/SM_Zafira_Body_Aligned.SM_Zafira_Body_Aligned' (0x000002900340A000) Class 'StaticMesh'>",
+  "note": "Created arcade Zafira DefaultPawn with real Zafira mesh and fast WASD movement; set game modes to use it."
+}

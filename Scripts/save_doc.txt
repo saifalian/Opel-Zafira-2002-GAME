@@ -1,0 +1,20 @@
+new_map_from_template: <built-in method new_map_from_template of type object at 0x00000192A116B2C8>
+X.new_map_from_template(path_to_template_level, save_existing_map) -> World
+New Map from Template
+
+Args:
+    path_to_template_level (str): 
+    save_existing_map (bool): 
+
+Returns:
+    World:
+save_map: <built-in method save_map of type object at 0x00000192A116B2C8>
+X.save_map(world, asset_path) -> bool
+Saves the specified map, returning true on success.
+
+Args:
+    world (World): The world to save.
+    asset_path (str): The valid content directory path and name for the asset.  E.g "/Game/MyMap"
+
+Returns:
+    bool: true if the map was saved successfully.

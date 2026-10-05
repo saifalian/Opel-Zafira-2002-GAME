@@ -1,0 +1,7 @@
+{
+  "class": "<Object '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController.BP_VehicleAdvPlayerController_C' (0x000001D9E8480000) Class 'BlueprintGeneratedClass'>",
+  "touch_controls_widget_class": "ERR PlayerController: Failed to find property 'touch_controls_widget_class' for attribute 'touch_controls_widget_class' on 'BP_VehicleAdvPlayerController_C'",
+  "TouchControlsWidgetClass": "ERR PlayerController: Failed to find property 'TouchControlsWidgetClass' for attribute 'TouchControlsWidgetClass' on 'BP_VehicleAdvPlayerController_C'",
+  "vehicle_hud_class": "ERR PlayerController: Failed to find property 'vehicle_hud_class' for attribute 'vehicle_hud_class' on 'BP_VehicleAdvPlayerController_C'",
+  "VehicleHudClass": "ERR PlayerController: Failed to find property 'VehicleHudClass' for attribute 'VehicleHudClass' on 'BP_VehicleAdvPlayerController_C'"
+}

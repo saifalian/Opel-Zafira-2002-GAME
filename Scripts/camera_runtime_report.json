@@ -1,0 +1,94 @@
+{
+  "modes": [
+    {
+      "mode": 0,
+      "cameras": [
+        {
+          "name": "FrontCamera",
+          "active": false,
+          "location": "<Struct 'Vector' (0x00000266ED0ED4B0) {x: 18.799696, y: -37.943635, z: 131.117584}>",
+          "rotation": "<Struct 'Rotator' (0x00000266ED0ED4B0) {pitch: -0.000000, yaw: -0.046633, roll: 0.000000}>"
+        },
+        {
+          "name": "BackCamera",
+          "active": true,
+          "location": "<Struct 'Vector' (0x00000266ED0ED4B0) {x: -381.958648, y: 0.375071, z: 152.818318}>",
+          "rotation": "<Struct 'Rotator' (0x00000266ED0ED4B0) {pitch: -0.000000, yaw: -0.046633, roll: 0.000000}>"
+        }
+      ],
+      "arms": [
+        {
+          "name": "FrontSpringArm",
+          "length": 0.0,
+          "location": "<Struct 'Vector' (0x000002663F214580) {x: 20.000000, y: -38.000000, z: 125.000000}>"
+        },
+        {
+          "name": "BackSpringArm",
+          "length": 381.0200500488281,
+          "location": "<Struct 'Vector' (0x000002663F215980) {x: 0.000000, y: 0.000000, z: 75.000000}>"
+        }
+      ]
+    },
+    {
+      "mode": 1,
+      "cameras": [
+        {
+          "name": "FrontCamera",
+          "active": false,
+          "location": "<Struct 'Vector' (0x00000266BA99FAD0) {x: 18.799696, y: -37.943635, z: 131.117584}>",
+          "rotation": "<Struct 'Rotator' (0x00000266BA99FAD0) {pitch: -0.000000, yaw: -0.046633, roll: 0.000000}>"
+        },
+        {
+          "name": "BackCamera",
+          "active": true,
+          "location": "<Struct 'Vector' (0x00000266BA99FAD0) {x: -381.958648, y: 0.375071, z: 152.818318}>",
+          "rotation": "<Struct 'Rotator' (0x00000266BA99FAD0) {pitch: -0.000000, yaw: -0.046633, roll: 0.000000}>"
+        }
+      ],
+      "arms": [
+        {
+          "name": "FrontSpringArm",
+          "length": 0.0,
+          "location": "<Struct 'Vector' (0x000002663F214580) {x: 20.000000, y: -38.000000, z: 125.000000}>"
+        },
+        {
+          "name": "BackSpringArm",
+          "length": 1000.0,
+          "location": "<Struct 'Vector' (0x000002663F215980) {x: 0.000000, y: 0.000000, z: 75.000000}>"
+        }
+      ]
+    },
+    {
+      "mode": 2,
+      "cameras": [
+        {
+          "name": "FrontCamera",
+          "active": true,
+          "location": "<Struct 'Vector' (0x00000266BA99FAD0) {x: 18.799696, y: -37.943635, z: 131.117584}>",
+          "rotation": "<Struct 'Rotator' (0x00000266BA99FAD0) {pitch: -0.000000, yaw: -0.046633, roll: 0.000000}>"
+        },
+        {
+          "name": "BackCamera",
+          "active": false,
+          "location": "<Struct 'Vector' (0x00000266BA99FAD0) {x: -1000.938393, y: 0.878862, z: 152.818318}>",
+          "rotation": "<Struct 'Rotator' (0x00000266BA99FAD0) {pitch: -0.000000, yaw: -0.046633, roll: 0.000000}>"
+        }
+      ],
+      "arms": [
+        {
+          "name": "FrontSpringArm",
+          "length": 0.0,
+          "location": "<Struct 'Vector' (0x000002663F214580) {x: 20.000000, y: -38.000000, z: 125.000000}>"
+        },
+        {
+          "name": "BackSpringArm",
+          "length": 1000.0,
+          "location": "<Struct 'Vector' (0x000002663F215980) {x: 0.000000, y: 0.000000, z: 75.000000}>"
+        }
+      ]
+    }
+  ],
+  "cycle_verified": true,
+  "look_checks": [],
+  "error": "Traceback (most recent call last):\n  File \"<string>\", line 34, in tick\nAssertionError: <Struct 'Rotator' (0x000002663F215998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>\n"
+}

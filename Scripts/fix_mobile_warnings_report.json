@@ -1,0 +1,30 @@
+{
+  "removed": [
+    [
+      "SkyAtmosphere_0",
+      "SkyAtmosphere"
+    ]
+  ],
+  "changed": [
+    [
+      "DirectionalLight_0",
+      "DirectionalLight",
+      "light_movable"
+    ],
+    [
+      "WorldSettings",
+      "force_no_precomputed_lighting",
+      true
+    ],
+    [
+      "WorldSettings",
+      "precompute_visibility",
+      false
+    ],
+    [
+      "fog_error",
+      "ExponentialHeightFogComponent: Failed to find property 'fog_inscattering_color' for attribute 'fog_inscattering_color' on 'ExponentialHeightFogComponent'"
+    ]
+  ],
+  "success": true
+}

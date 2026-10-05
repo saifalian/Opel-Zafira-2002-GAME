@@ -1,0 +1,14 @@
+{
+  "/Game/Zafira/BP_ZafiraGameMode": {
+    "default_pawn_class": "<Object '/Game/Zafira/BP_Zafira.BP_Zafira_C' (0x0000026D658ABD00) Class 'BlueprintGeneratedClass'>",
+    "player_controller_class": "<Object '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController.BP_VehicleAdvPlayerController_C' (0x0000026CEED1CB00) Class 'BlueprintGeneratedClass'>",
+    "hud_class": "None",
+    "spectator_class": "<Object '/Script/Engine.SpectatorPawn' (0x00007FF469A6FC70) Class 'Class'>"
+  },
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvGameMode": {
+    "default_pawn_class": "<Object '/Game/Zafira/BP_Zafira.BP_Zafira_C' (0x0000026D658ABD00) Class 'BlueprintGeneratedClass'>",
+    "player_controller_class": "<Object '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController.BP_VehicleAdvPlayerController_C' (0x0000026CEED1CB00) Class 'BlueprintGeneratedClass'>",
+    "hud_class": "None",
+    "spectator_class": "<Object '/Script/Engine.SpectatorPawn' (0x00007FF469A6FC70) Class 'Class'>"
+  }
+}

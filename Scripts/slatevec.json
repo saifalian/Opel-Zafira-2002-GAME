@@ -1,0 +1,21 @@
+{
+  "dir": [
+    "assign",
+    "cast",
+    "copy",
+    "export_text",
+    "get_editor_property",
+    "import_text",
+    "set_editor_properties",
+    "set_editor_property",
+    "static_struct",
+    "to_dict",
+    "to_tuple"
+  ],
+  "text": "<Struct 'DeprecateSlateVector2D' (0x000001779B39B610) {}>",
+  "x": "ok",
+  "y": "ok",
+  "X": "ok",
+  "Y": "ok",
+  "after": "<Struct 'DeprecateSlateVector2D' (0x000001779B39B610) {}>"
+}

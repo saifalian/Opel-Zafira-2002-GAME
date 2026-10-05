@@ -1,0 +1,15 @@
+[
+  "find_data_input_pin",
+  "find_execute_pin",
+  "find_input_pin",
+  "find_input_pin_by_index",
+  "find_output_pin",
+  "find_output_pin_by_index",
+  "find_result_pin",
+  "find_self_pin",
+  "find_then_pin",
+  "get_default_object",
+  "list_all_pins",
+  "list_input_pins",
+  "list_output_pins"
+]

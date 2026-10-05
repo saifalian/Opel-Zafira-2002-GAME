@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "actors": [
+    {
+      "label": "Zafira_TestGround_4km",
+      "name": "StaticMeshActor_0",
+      "class": "StaticMeshActor",
+      "loc": [
+        0.0,
+        0.0,
+        -50.0
+      ],
+      "auto_possess_player": "ERR StaticMeshActor: Failed to find property 'auto_possess_player' for attribute 'auto_possess_player' on 'StaticMeshActor'",
+      "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>"
+    },
+    {
+      "label": "PlayerStart",
+      "name": "PlayerStart_0",
+      "class": "PlayerStart",
+      "loc": [
+        0.0,
+        0.0,
+        420.0
+      ],
+      "auto_possess_player": "ERR PlayerStart: Failed to find property 'auto_possess_player' for attribute 'auto_possess_player' on 'PlayerStart'",
+      "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>"
+    },
+    {
+      "label": "Zafira_22DTI_Player",
+      "name": "BP_Zafira_C_0",
+      "class": "BP_Zafira_C",
+      "loc": [
+        0.0,
+        0.0,
+        60.0
+      ],
+      "auto_possess_player": "<AutoReceiveInput.PLAYER0: 1>",
+      "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>"
+    }
+  ]
+}

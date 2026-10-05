@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "mapped": {
+    "/Game/VehicleTemplate/Input/IMC_Vehicle_Default": 14,
+    "/Game/VehicleTemplate/Input/IMC_SteeringWheel": 14,
+    "/Game/Input/IMC_Default": 14
+  },
+  "test_map_save": true,
+  "note": "Restored original real Zafira pawn/controller and input contexts; testing on original ZafiraTest flat map first."
+}

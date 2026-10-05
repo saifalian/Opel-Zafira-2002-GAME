@@ -1,0 +1,18 @@
+{
+  "InputMappingContext": [
+    "default_key_mappings",
+    "map_key",
+    "mapping_profile_overrides",
+    "mappings",
+    "unmap_all",
+    "unmap_all_keys_from_action",
+    "unmap_key"
+  ],
+  "doc_default_key_mappings": "(InputMappingContextMappingData):  [Read-Only] List of Input Actions to which FKeys they are mapped to.",
+  "doc_map_key": "x.map_key(action, to_key) -> EnhancedActionKeyMapping\r\nMap a key to an action within the mapping context.\r\n\r\nArgs:\r\n    action (InputAction): \r\n    to_key (Key): \r\n\r\nReturns:\r\n    EnhancedActionKeyMapping:",
+  "doc_mapping_profile_overrides": "(Map[str, InputMappingContextMappingData]):  [Read-Only] Key mappings that should be used INSTEAD of the default \"Mappings\" array above then the\nprovided Remappable Key Profile of the given name is currently active.\n\nIf there are no override mappings specified for a set for a specific mapping profile, then the default mappings will be used.",
+  "doc_mappings": "(Array[EnhancedActionKeyMapping]):  [Read-Only]\r\ndeprecated: Use the DefaultKeyMappings struct instead.",
+  "doc_unmap_all": "x.unmap_all() -> None\r\nUnmap everything within the mapping context.",
+  "doc_unmap_all_keys_from_action": "x.unmap_all_keys_from_action(action) -> None\r\nUnmap all key maps to an action within the mapping context.\r\n\r\nArgs:\r\n    action (InputAction):",
+  "doc_unmap_key": "x.unmap_key(action, key) -> None\r\nUnmap a key from an action within the mapping context.\r\n\r\nArgs:\r\n    action (InputAction): \r\n    key (Key):"
+}

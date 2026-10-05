@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "map": "/Game/Zafira/Maps/ZafiraStraight5KM",
+  "scenery_actors_added": 391,
+  "weather": "sunny clear, top sun, bright skylight",
+  "features": [
+    "trees",
+    "buildings",
+    "cones",
+    "rocks",
+    "light poles",
+    "colorful roofs",
+    "sun disc"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "bTreatAsButton": "ok",
+  "treat_as_button": "ok",
+  "b_treat_as_button": "TouchInputControl: Failed to find property 'b_treat_as_button' for attribute 'b_treat_as_button' on 'TouchInputControl'",
+  "image1": "ok",
+  "Image1": "ok",
+  "center": "ok",
+  "Center": "ok",
+  "visual_size": "ok",
+  "VisualSize": "ok",
+  "main_input_key": "ok",
+  "MainInputKey": "ok"
+}

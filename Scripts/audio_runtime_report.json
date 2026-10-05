@@ -1,0 +1,2048 @@
+{
+  "authenticity": "NOT original Opel. CC0 Joseph Sardin Iveco diesel fallback. No auditory fidelity verification.",
+  "rows": [
+    {
+      "t": 0.125,
+      "throttle_command": 0,
+      "rpm": 0.0,
+      "smoothed_rpm": 850.0,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.8500000238418579,
+          "volume": 0.45500001311302185,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.75,
+          "volume": 0.020999999716877937,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 0.375,
+      "throttle_command": 0,
+      "rpm": 800.0,
+      "smoothed_rpm": 850.0,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.8500000238418579,
+          "volume": 0.45500001311302185,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.75,
+          "volume": 0.020999999716877937,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 0.5811417996883392,
+      "throttle_command": 0,
+      "rpm": 2484.706787109375,
+      "smoothed_rpm": 1294.5085262886073,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.9400270581245422,
+          "volume": 0.36961302161216736,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.946934163570404,
+          "volume": 0.10638698935508728,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 0.7856893017888069,
+      "throttle_command": 0,
+      "rpm": 2557.98486328125,
+      "smoothed_rpm": 2145.174063509528,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1123137474060059,
+          "volume": 0.20620609819889069,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.3238112926483154,
+          "volume": 0.26979389786720276,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 0.9858750030398369,
+      "throttle_command": 0,
+      "rpm": 2299.16943359375,
+      "smoothed_rpm": 2421.3377564173693,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1682456731796265,
+          "volume": 0.15315698087215424,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.4461623430252075,
+          "volume": 0.3228430151939392,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 1.202002801001072,
+      "throttle_command": 0,
+      "rpm": 1719.0377197265625,
+      "smoothed_rpm": 2029.8366785425235,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.088954210281372,
+          "volume": 0.2283616065979004,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.2727124691009521,
+          "volume": 0.24763838946819305,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 1.41924349963665,
+      "throttle_command": 0,
+      "rpm": 2167.867431640625,
+      "smoothed_rpm": 1987.9760013246116,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.08047616481781,
+          "volume": 0.2364027500152588,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.254166603088379,
+          "volume": 0.23959724605083466,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 1.6365596018731594,
+      "throttle_command": 0,
+      "rpm": 2440.81982421875,
+      "smoothed_rpm": 2211.5442869453786,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.125755786895752,
+          "volume": 0.19345684349536896,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.3532158136367798,
+          "volume": 0.2825431525707245,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 1.8522715009748936,
+      "throttle_command": 0,
+      "rpm": 2853.11083984375,
+      "smoothed_rpm": 2516.5137561429656,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1875218152999878,
+          "volume": 0.13487432897090912,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.4883289337158203,
+          "volume": 0.3411256670951843,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 2.053005401045084,
+      "throttle_command": 0,
+      "rpm": 3155.614990234375,
+      "smoothed_rpm": 2848.1714556918305,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2546929121017456,
+          "volume": 0.07116520404815674,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.635265827178955,
+          "volume": 0.4048348069190979,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 2.253488000482321,
+      "throttle_command": 0,
+      "rpm": 3405.10986328125,
+      "smoothed_rpm": 3135.045833236718,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.3127940893173218,
+          "volume": 0.041999999433755875,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.7623621225357056,
+          "volume": 0.4339999854564667,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 2.469301700592041,
+      "throttle_command": 0,
+      "rpm": 3679.154296875,
+      "smoothed_rpm": 3420.508451251067,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.3706092834472656,
+          "volume": 0.041999999433755875,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.8888328075408936,
+          "volume": 0.4339999854564667,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 2.6698330007493496,
+      "throttle_command": 0,
+      "rpm": 3934.9990234375,
+      "smoothed_rpm": 3678.005700266837,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.4227606058120728,
+          "volume": 0.041999999433755875,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.0029139518737793,
+          "volume": 0.4339999854564667,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 2.8861458003520966,
+      "throttle_command": 0,
+      "rpm": 4186.05517578125,
+      "smoothed_rpm": 3950.6261094088327,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.4779748916625977,
+          "volume": 0.041999999433755875,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.123695135116577,
+          "volume": 0.4339999854564667,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 3.1020161025226116,
+      "throttle_command": 1,
+      "rpm": 4200.6787109375,
+      "smoothed_rpm": 4167.430136653413,
+      "smoothed_load": 0.5249419469759065,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.521884560585022,
+          "volume": 0.05617343261837959,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.219747543334961,
+          "volume": 0.5804588198661804,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 3.30315950140357,
+      "throttle_command": 1,
+      "rpm": 3904.388671875,
+      "smoothed_rpm": 4076.0003586558532,
+      "smoothed_load": 0.8927889110116509,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.5033671855926514,
+          "volume": 0.06610529869794846,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.1792407035827637,
+          "volume": 0.6830881237983704,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 3.521636001765728,
+      "throttle_command": 1,
+      "rpm": 3202.44189453125,
+      "smoothed_rpm": 3728.6861530051992,
+      "smoothed_load": 0.9786575366339701,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.4330250024795532,
+          "volume": 0.06842375546693802,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.025367259979248,
+          "volume": 0.7070454359054565,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 3.73658350110054,
+      "throttle_command": 1,
+      "rpm": 2671.3046875,
+      "smoothed_rpm": 3156.329641117786,
+      "smoothed_load": 0.9957453774631386,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.317104697227478,
+          "volume": 0.06888512521982193,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.7717915773391724,
+          "volume": 0.7118129730224609,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 3.9519831016659737,
+      "throttle_command": 1,
+      "rpm": 2337.09228515625,
+      "smoothed_rpm": 2695.8751166658963,
+      "smoothed_load": 0.9991518371507208,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2238481044769287,
+          "volume": 0.16492140293121338,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.5677927732467651,
+          "volume": 0.6168190836906433,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 4.152766801416874,
+      "throttle_command": 1,
+      "rpm": 2100.32958984375,
+      "smoothed_rpm": 2377.721956332825,
+      "smoothed_load": 0.9998085864777756,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1594120264053345,
+          "volume": 0.265359491109848,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.4268388748168945,
+          "volume": 0.5165819525718689,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 4.35867640003562,
+      "throttle_command": 1,
+      "rpm": 1888.930908203125,
+      "smoothed_rpm": 2119.179926157777,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1070491075515747,
+          "volume": 0.34697043895721436,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.3122949600219727,
+          "volume": 0.4350295662879944,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 4.5743241012096405,
+      "throttle_command": 1,
+      "rpm": 1679.2222900390625,
+      "smoothed_rpm": 1884.0853653623112,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.0594350099563599,
+          "volume": 0.4211618900299072,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.2081390619277954,
+          "volume": 0.3608381152153015,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 4.774682402610779,
+      "throttle_command": 1,
+      "rpm": 1492.066162109375,
+      "smoothed_rpm": 1685.1614634709313,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.0191466808319092,
+          "volume": 0.4839385747909546,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.1200082302093506,
+          "volume": 0.29806143045425415,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 4.991155702620745,
+      "throttle_command": 1,
+      "rpm": 1962.299072265625,
+      "smoothed_rpm": 1733.7143857438289,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.0289801359176636,
+          "volume": 0.46861618757247925,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.1415190696716309,
+          "volume": 0.3133838176727295,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 5.207138702273369,
+      "throttle_command": 1,
+      "rpm": 1722.2989501953125,
+      "smoothed_rpm": 1917.2606102959594,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.0661540031433105,
+          "volume": 0.41069239377975464,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.222836971282959,
+          "volume": 0.3713075816631317,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 5.4073156006634235,
+      "throttle_command": 1,
+      "rpm": 1231.904541015625,
+      "smoothed_rpm": 1587.4838626188382,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.9993638396263123,
+          "volume": 0.5147638320922852,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.0767333507537842,
+          "volume": 0.2672361731529236,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 5.607673700898886,
+      "throttle_command": 1,
+      "rpm": 1094.666015625,
+      "smoothed_rpm": 1304.8456102748885,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.9421206116676331,
+          "volume": 0.6039592027664185,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.9515138864517212,
+          "volume": 0.17804081737995148,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 5.808508303016424,
+      "throttle_command": 1,
+      "rpm": 990.552001953125,
+      "smoothed_rpm": 1131.3289991788847,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.9069780111312866,
+          "volume": 0.6587178111076355,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.8746394515037537,
+          "volume": 0.12328220158815384,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 6.023971401154995,
+      "throttle_command": 1,
+      "rpm": 884.740234375,
+      "smoothed_rpm": 994.0967927117832,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.8791841864585876,
+          "volume": 0.7020257115364075,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.8138403296470642,
+          "volume": 0.07997426390647888,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 6.224373299628496,
+      "throttle_command": 1,
+      "rpm": 837.0280151367188,
+      "smoothed_rpm": 906.1427539340492,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.8613706827163696,
+          "volume": 0.7297824025154114,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.7748733758926392,
+          "volume": 0.05221761018037796,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 6.424692399799824,
+      "throttle_command": 1,
+      "rpm": 816.1796875,
+      "smoothed_rpm": 869.761949799333,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.8540024161338806,
+          "volume": 0.7412635087966919,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.7587552666664124,
+          "volume": 0.04073650389909744,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 6.640426199883223,
+      "throttle_command": 1,
+      "rpm": 806.5986328125,
+      "smoothed_rpm": 856.3764178051806,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.8512914180755615,
+          "volume": 0.7454877495765686,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.7528250217437744,
+          "volume": 0.03651227802038193,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 6.840781100094318,
+      "throttle_command": 1,
+      "rpm": 847.4434814453125,
+      "smoothed_rpm": 852.2444638561992,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.850454568862915,
+          "volume": 0.746791660785675,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.7509943842887878,
+          "volume": 0.035208310931921005,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 7.040812101215124,
+      "throttle_command": 1,
+      "rpm": 1122.3721923828125,
+      "smoothed_rpm": 922.9951358915368,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.8647838234901428,
+          "volume": 0.7244641184806824,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 0.7823396325111389,
+          "volume": 0.05753590539097786,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 7.240910802036524,
+      "throttle_command": 1,
+      "rpm": 2206.8642578125,
+      "smoothed_rpm": 1415.980207346775,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 0.9646288752555847,
+          "volume": 0.5688871741294861,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.0007507801055908,
+          "volume": 0.21311281621456146,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 7.457047201693058,
+      "throttle_command": 1,
+      "rpm": 3060.194091796875,
+      "smoothed_rpm": 2303.4911000745233,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1443779468536377,
+          "volume": 0.2888052463531494,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.3939517736434937,
+          "volume": 0.4931947588920593,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 7.673150699585676,
+      "throttle_command": 1,
+      "rpm": 3464.940673828125,
+      "smoothed_rpm": 2980.9512765495983,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2815850973129272,
+          "volume": 0.07501142472028732,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.6940923929214478,
+          "volume": 0.7069885730743408,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 7.874275200068951,
+      "throttle_command": 1,
+      "rpm": 3734.346435546875,
+      "smoothed_rpm": 3390.6731455971158,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.364566683769226,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.8756146430969238,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 8.074705202132463,
+      "throttle_command": 1,
+      "rpm": 3992.05712890625,
+      "smoothed_rpm": 3704.3729274280045,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.428100824356079,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.0145955085754395,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 8.290829502046108,
+      "throttle_command": 1,
+      "rpm": 4219.93408203125,
+      "smoothed_rpm": 3989.054073838211,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.485757827758789,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.1407201290130615,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 8.491277802735567,
+      "throttle_command": 1,
+      "rpm": 4397.50830078125,
+      "smoothed_rpm": 4201.678535401508,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.5288209915161133,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.2349209785461426,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 8.70737450197339,
+      "throttle_command": 1,
+      "rpm": 4168.61474609375,
+      "smoothed_rpm": 4296.3708432832655,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.5479991436004639,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.2768731117248535,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 8.907791800796986,
+      "throttle_command": 1,
+      "rpm": 3885.475830078125,
+      "smoothed_rpm": 4105.831832902538,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.509408950805664,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.1924571990966797,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 9.124003302305937,
+      "throttle_command": 1,
+      "rpm": 3033.503173828125,
+      "smoothed_rpm": 3586.518893530999,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.4042316675186157,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.9623818397521973,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 9.324169602245092,
+      "throttle_command": 1,
+      "rpm": 2796.640625,
+      "smoothed_rpm": 3126.805672421535,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.3111251592636108,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.758711338043213,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 9.525286503136158,
+      "throttle_command": 1,
+      "rpm": 2789.053955078125,
+      "smoothed_rpm": 2902.2608492160634,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2656477689743042,
+          "volume": 0.09984465688467026,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.6592295169830322,
+          "volume": 0.6821553707122803,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 9.741121802479029,
+      "throttle_command": 1,
+      "rpm": 2891.71875,
+      "smoothed_rpm": 2860.0225021263755,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2570931911468506,
+          "volume": 0.11317429691553116,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.6405162811279297,
+          "volume": 0.6688256859779358,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 9.94140350073576,
+      "throttle_command": 1,
+      "rpm": 3028.424072265625,
+      "smoothed_rpm": 2927.4316329381572,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2707456350326538,
+          "volume": 0.09190122783184052,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.6703810691833496,
+          "volume": 0.690098762512207,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 10.142466101795435,
+      "throttle_command": 1,
+      "rpm": 3179.364501953125,
+      "smoothed_rpm": 3045.6279175624436,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2946841716766357,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.72274649143219,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 10.357650201767683,
+      "throttle_command": 1,
+      "rpm": 3346.175048828125,
+      "smoothed_rpm": 3198.7535631669334,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.3256969451904297,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.790587067604065,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 10.5580342002213,
+      "throttle_command": 1,
+      "rpm": 3498.084716796875,
+      "smoothed_rpm": 3347.9416596458473,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.355912208557129,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.8566830158233643,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 10.774264100939035,
+      "throttle_command": 1,
+      "rpm": 3658.14306640625,
+      "smoothed_rpm": 3509.919899387574,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.3887180089950562,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.92844557762146,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 10.990969400852919,
+      "throttle_command": 1,
+      "rpm": 3813.00439453125,
+      "smoothed_rpm": 3668.652834582452,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.4208663702011108,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.9987702369689941,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 11.192130003124475,
+      "throttle_command": 1,
+      "rpm": 3951.36083984375,
+      "smoothed_rpm": 3811.1350221674124,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.4497236013412476,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.0618953704833984,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 11.408807702362537,
+      "throttle_command": 1,
+      "rpm": 4096.21435546875,
+      "smoothed_rpm": 3960.728721893958,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.4800209999084473,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.128170967102051,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 11.623906701803207,
+      "throttle_command": 1,
+      "rpm": 4112.63720703125,
+      "smoothed_rpm": 4094.5760830258937,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.5071293115615845,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.1874704360961914,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 11.825812000781298,
+      "throttle_command": 1,
+      "rpm": 3851.95947265625,
+      "smoothed_rpm": 4007.4510347734436,
+      "smoothed_load": 1.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.4894837141036987,
+          "volume": 0.0689999982714653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.1488707065582275,
+          "volume": 0.7129999995231628,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 12.040174100548029,
+      "throttle_command": 0,
+      "rpm": 3335.7236328125,
+      "smoothed_rpm": 3737.4500392724112,
+      "smoothed_load": 0.780277375438199,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.4348000288009644,
+          "volume": 0.0630674883723259,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 2.029249906539917,
+          "volume": 0.6516973972320557,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 12.241360202431679,
+      "throttle_command": 0,
+      "rpm": 3007.80712890625,
+      "smoothed_rpm": 3348.395245399047,
+      "smoothed_load": 0.17609297769225607,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.3560041189193726,
+          "volume": 0.04675450921058655,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.8568840026855469,
+          "volume": 0.48312994837760925,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 12.441851500421762,
+      "throttle_command": 0,
+      "rpm": 2841.005126953125,
+      "smoothed_rpm": 3063.4981153906515,
+      "smoothed_load": 0.0397314314770817,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2983033657073975,
+          "volume": 0.04307274892926216,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.730663776397705,
+          "volume": 0.4450850784778595,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 12.657383799552917,
+      "throttle_command": 0,
+      "rpm": 2737.321044921875,
+      "smoothed_rpm": 2871.0765847966086,
+      "smoothed_load": 0.0079204528271899,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2593319416046143,
+          "volume": 0.0671052411198616,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.6454136371612549,
+          "volume": 0.41131842136383057,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 12.85763170197606,
+      "throttle_command": 0,
+      "rpm": 2672.73291015625,
+      "smoothed_rpm": 2760.6371939412074,
+      "smoothed_load": 0.0017874776664978454,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.236964464187622,
+          "volume": 0.08808102458715439,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.5964847803115845,
+          "volume": 0.388465940952301,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 13.057811003178358,
+      "throttle_command": 0,
+      "rpm": 2621.477294921875,
+      "smoothed_rpm": 2685.157401150852,
+      "smoothed_load": 0.00040339663881209636,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2216774225234985,
+          "volume": 0.1025056391954422,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.5630444288253784,
+          "volume": 0.3736177980899811,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 13.258387800306082,
+      "throttle_command": 0,
+      "rpm": 2576.476318359375,
+      "smoothed_rpm": 2627.821113250443,
+      "smoothed_load": 9.10381800815512e-05,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.2100650072097778,
+          "volume": 0.11349961161613464,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.537642240524292,
+          "volume": 0.3625282347202301,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 13.473302699625492,
+      "throttle_command": 0,
+      "rpm": 2531.22705078125,
+      "smoothed_rpm": 2575.938860942861,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1995571851730347,
+          "volume": 0.12345918267965317,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.5146564245224,
+          "volume": 0.3525408208370209,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 13.67801919952035,
+      "throttle_command": 0,
+      "rpm": 2490.439697265625,
+      "smoothed_rpm": 2531.9915403438067,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1906565427780151,
+          "volume": 0.13190115988254547,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.4951860904693604,
+          "volume": 0.344098836183548,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 13.878575902432203,
+      "throttle_command": 0,
+      "rpm": 2451.541015625,
+      "smoothed_rpm": 2491.321660840857,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1824195384979248,
+          "volume": 0.13971355557441711,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.4771678447723389,
+          "volume": 0.33628642559051514,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 14.094862502068281,
+      "throttle_command": 0,
+      "rpm": 2410.345947265625,
+      "smoothed_rpm": 2448.797113886351,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1738070249557495,
+          "volume": 0.14788222312927246,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.4583278894424438,
+          "volume": 0.3281177580356598,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 14.29764910042286,
+      "throttle_command": 0,
+      "rpm": 2372.5732421875,
+      "smoothed_rpm": 2410.087573590377,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1659671068191528,
+          "volume": 0.15531806647777557,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.4411780834197998,
+          "volume": 0.32068192958831787,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 14.502017103135586,
+      "throttle_command": 0,
+      "rpm": 2335.140380859375,
+      "smoothed_rpm": 2372.03604365212,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.158260464668274,
+          "volume": 0.16262748837471008,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.4243197441101074,
+          "volume": 0.31337249279022217,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 14.70709590241313,
+      "throttle_command": 0,
+      "rpm": 2298.339599609375,
+      "smoothed_rpm": 2334.685007201972,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1506956815719604,
+          "volume": 0.16980236768722534,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.4077718257904053,
+          "volume": 0.3061976432800293,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 14.909591499716043,
+      "throttle_command": 0,
+      "rpm": 2262.47021484375,
+      "smoothed_rpm": 2298.0840509684826,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1432828903198242,
+          "volume": 0.1768331527709961,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.3915562629699707,
+          "volume": 0.29916682839393616,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 15.11475970223546,
+      "throttle_command": 0,
+      "rpm": 2226.7041015625,
+      "smoothed_rpm": 2261.8450009122002,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1359432935714722,
+          "volume": 0.18379442393779755,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.3755009174346924,
+          "volume": 0.2922055721282959,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 15.324124500155449,
+      "throttle_command": 0,
+      "rpm": 2191.054931640625,
+      "smoothed_rpm": 2225.324829267236,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1285468339920044,
+          "volume": 0.1908096969127655,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.359321117401123,
+          "volume": 0.28519031405448914,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 15.534330200403929,
+      "throttle_command": 0,
+      "rpm": 2155.537841796875,
+      "smoothed_rpm": 2189.3760466569374,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1212660074234009,
+          "volume": 0.19771520793437958,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.34339439868927,
+          "volume": 0.27828478813171387,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 15.745249800384045,
+      "throttle_command": 0,
+      "rpm": 2120.658935546875,
+      "smoothed_rpm": 2154.0238368377786,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1141060590744019,
+          "volume": 0.20450611412525177,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.3277320861816406,
+          "volume": 0.2714938819408417,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 15.951903700828552,
+      "throttle_command": 0,
+      "rpm": 2086.957275390625,
+      "smoothed_rpm": 2119.6554175399506,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1071454286575317,
+          "volume": 0.21110805869102478,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.3125056028366089,
+          "volume": 0.26489195227622986,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 16.162102703005075,
+      "throttle_command": 0,
+      "rpm": 2053.3056640625,
+      "smoothed_rpm": 2085.500016045781,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.1002278327941895,
+          "volume": 0.2176690697669983,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.2973734140396118,
+          "volume": 0.25833094120025635,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 16.36993920058012,
+      "throttle_command": 0,
+      "rpm": 2020.6142578125,
+      "smoothed_rpm": 2052.2580721105683,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.09349524974823,
+          "volume": 0.22405460476875305,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.2826459407806396,
+          "volume": 0.2519453763961792,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 16.582125402987003,
+      "throttle_command": 0,
+      "rpm": 1987.915771484375,
+      "smoothed_rpm": 2018.766006994384,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.086712121963501,
+          "volume": 0.23048821091651917,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.2678077220916748,
+          "volume": 0.24551180005073547,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 16.79113730043173,
+      "throttle_command": 0,
+      "rpm": 1956.13134765625,
+      "smoothed_rpm": 1986.6967317096692,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.0802170038223267,
+          "volume": 0.23664848506450653,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.253599762916565,
+          "volume": 0.23935151100158691,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 17.000125501304865,
+      "throttle_command": 0,
+      "rpm": 1924.82568359375,
+      "smoothed_rpm": 1954.8614245660779,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.073769450187683,
+          "volume": 0.24276383221149445,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.2394955158233643,
+          "volume": 0.2332361787557602,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 17.208185002207756,
+      "throttle_command": 0,
+      "rpm": 1894.2369384765625,
+      "smoothed_rpm": 1923.654457998108,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.0674489736557007,
+          "volume": 0.248758465051651,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.2256697416305542,
+          "volume": 0.22724153101444244,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 17.413194302469492,
+      "throttle_command": 0,
+      "rpm": 1869.8114013671875,
+      "smoothed_rpm": 1896.0523204192307,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.0618586540222168,
+          "volume": 0.25406065583229065,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.2134408950805664,
+          "volume": 0.221939355134964,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 17.63067440316081,
+      "throttle_command": 0,
+      "rpm": 1838.7841796875,
+      "smoothed_rpm": 1866.607818708535,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.055895209312439,
+          "volume": 0.2597167193889618,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.2003958225250244,
+          "volume": 0.21628327667713165,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    },
+    {
+      "t": 17.831522401422262,
+      "throttle_command": 0,
+      "rpm": 1810.715576171875,
+      "smoothed_rpm": 1838.6745355105265,
+      "smoothed_load": 0.0,
+      "audio": [
+        {
+          "name": "ZafiraDieselIdle",
+          "playing": true,
+          "pitch": 1.0502378940582275,
+          "volume": 0.2650825083255768,
+          "sound": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop"
+        },
+        {
+          "name": "ZafiraDieselRun",
+          "playing": true,
+          "pitch": 1.1880203485488892,
+          "volume": 0.21091748774051666,
+          "sound": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "ZafiraDieselIdle": {
+      "pitch_range": [
+        0.8500000238418579,
+        1.5479991436004639
+      ],
+      "volume_range": [
+        0.041999999433755875,
+        0.746791660785675
+      ],
+      "continuously_playing": true
+    },
+    "ZafiraDieselRun": {
+      "pitch_range": [
+        0.75,
+        2.2768731117248535
+      ],
+      "volume_range": [
+        0.020999999716877937,
+        0.7129999995231628
+      ],
+      "continuously_playing": true
+    },
+    "throttle_rise_release": true
+  },
+  "assets": [
+    {
+      "path": "/Game/Zafira/Audio/DieselFallback_IdleLoop.DieselFallback_IdleLoop",
+      "duration": 7.75,
+      "looping": true,
+      "channels": 1
+    },
+    {
+      "path": "/Game/Zafira/Audio/DieselFallback_RunLoop.DieselFallback_RunLoop",
+      "duration": 7.75,
+      "looping": true,
+      "channels": 1
+    }
+  ],
+  "persisted": {
+    "graphs": [
+      "UserConstructionScript",
+      "BrakeLights",
+      "Flipped Check",
+      "ZafiraCycleCamera",
+      "ZafiraCameraLook",
+      "ZafiraToggleTransmission",
+      "ZafiraShiftUp",
+      "ZafiraShiftDown",
+      "ZafiraTransmissionInput",
+      "ZafiraUpdateDieselAudio",
+      "EventGraph"
+    ],
+    "mass": 1485.0,
+    "transmission": "(bUseAutomaticGears=True,bUseAutoReverse=True,FinalRatio=3.818000,ForwardGearRatios=(3.670000,1.880000,1.180000,0.890000,0.660000),ReverseGearRatios=(3.430000),ChangeUpRPM=4200.000000,ChangeDownRPM=1500.000000,GearChangeTime=0.350000,TransmissionEfficiency=0.900000)",
+    "wheels": [
+      "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+      "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+      "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+      "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))"
+    ],
+    "mesh": "/Game/Zafira/Meshes/SKM_ZafiraAligned.SKM_ZafiraAligned"
+  },
+  "success": true,
+  "error": null
+}

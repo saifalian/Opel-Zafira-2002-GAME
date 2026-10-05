@@ -1,0 +1,13 @@
+{
+  "default": {},
+  "text": "(bTreatAsButton=False,Image1=None,Image2=None,Center=(X=0.000000,Y=0.000000),VisualSize=(X=0.000000,Y=0.000000),ThumbSize=(X=0.000000,Y=0.000000),InteractionSize=(X=0.000000,Y=0.000000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=None,AltInputKey=None)",
+  "ti_props": {
+    "controls": "[]",
+    "active_opacity": "1.0",
+    "inactive_opacity": "0.10000000149011612",
+    "time_until_deactive": "0.5",
+    "time_until_reset": "2.0",
+    "activation_delay": "0.0",
+    "startup_delay": "0.0"
+  }
+}

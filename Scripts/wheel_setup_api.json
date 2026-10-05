@@ -1,0 +1,7 @@
+{
+  "wheel_class": "<Object '/Script/ChaosVehicles.ChaosVehicleWheel' (0x000002C30AF0AA00) Class 'Class'>",
+  "bone_name": "None",
+  "additional_offset": "<Struct 'Vector' (0x000002C3823491F8) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+  "export": "(WheelClass=\"/Script/CoreUObject.Class'/Script/ChaosVehicles.ChaosVehicleWheel'\",BoneName=\"\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+  "tuple": "()"
+}

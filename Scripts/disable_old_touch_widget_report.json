@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "attempts": [
+    [
+      "TouchControlsWidgetClass",
+      "get_err",
+      "PlayerController: Failed to find property 'TouchControlsWidgetClass' for attribute 'TouchControlsWidgetClass' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "TouchControlsWidgetClass",
+      "set_err",
+      "PlayerController: Failed to find property 'TouchControlsWidgetClass' for attribute 'TouchControlsWidgetClass' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "touch_controls_widget_class",
+      "get_err",
+      "PlayerController: Failed to find property 'touch_controls_widget_class' for attribute 'touch_controls_widget_class' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "touch_controls_widget_class",
+      "set_err",
+      "PlayerController: Failed to find property 'touch_controls_widget_class' for attribute 'touch_controls_widget_class' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "Touch Controls Widget Class",
+      "get",
+      "<Object '/Game/VehicleTemplate/Input/UI_Touch_Vehicle.UI_Touch_Vehicle_C' (0x000001AD36D9D800) Class 'WidgetBlueprintGeneratedClass'>"
+    ],
+    [
+      "Touch Controls Widget Class",
+      "set_ok",
+      ""
+    ],
+    [
+      "force_touch_controls",
+      "get_err",
+      "PlayerController: Failed to find property 'force_touch_controls' for attribute 'force_touch_controls' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "force_touch_controls",
+      "set_err",
+      "PlayerController: Failed to find property 'force_touch_controls' for attribute 'force_touch_controls' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "ForceTouchControls",
+      "get_err",
+      "PlayerController: Failed to find property 'ForceTouchControls' for attribute 'ForceTouchControls' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "ForceTouchControls",
+      "set_err",
+      "PlayerController: Failed to find property 'ForceTouchControls' for attribute 'ForceTouchControls' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "use_mobile_controls",
+      "get_err",
+      "PlayerController: Failed to find property 'use_mobile_controls' for attribute 'use_mobile_controls' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "use_mobile_controls",
+      "set_err",
+      "PlayerController: Failed to find property 'use_mobile_controls' for attribute 'use_mobile_controls' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "UseMobileControls",
+      "get_err",
+      "PlayerController: Failed to find property 'UseMobileControls' for attribute 'UseMobileControls' on 'BP_VehicleAdvPlayerController_C'"
+    ],
+    [
+      "UseMobileControls",
+      "set_err",
+      "PlayerController: Failed to find property 'UseMobileControls' for attribute 'UseMobileControls' on 'BP_VehicleAdvPlayerController_C'"
+    ]
+  ]
+}

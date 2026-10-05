@@ -1,0 +1,86 @@
+{
+  "success": true,
+  "mapped": [
+    {
+      "action": "Throttle",
+      "key": "W",
+      "neg": false
+    },
+    {
+      "action": "Throttle",
+      "key": "Up",
+      "neg": false
+    },
+    {
+      "action": "Throttle",
+      "key": "Gamepad_RightTriggerAxis",
+      "neg": false
+    },
+    {
+      "action": "Brake",
+      "key": "S",
+      "neg": false
+    },
+    {
+      "action": "Brake",
+      "key": "Down",
+      "neg": false
+    },
+    {
+      "action": "Brake",
+      "key": "Gamepad_LeftTriggerAxis",
+      "neg": false
+    },
+    {
+      "action": "Steering",
+      "key": "A",
+      "neg": true
+    },
+    {
+      "action": "Steering",
+      "key": "Left",
+      "neg": true
+    },
+    {
+      "action": "Steering",
+      "key": "Gamepad_LeftX",
+      "neg": false
+    },
+    {
+      "action": "Steering",
+      "key": "D",
+      "neg": false
+    },
+    {
+      "action": "Steering",
+      "key": "Right",
+      "neg": false
+    },
+    {
+      "action": "Handbrake",
+      "key": "SpaceBar",
+      "neg": false
+    },
+    {
+      "action": "Handbrake",
+      "key": "Gamepad_FaceButton_Bottom",
+      "neg": false
+    },
+    {
+      "action": "Reset",
+      "key": "R",
+      "neg": false
+    },
+    {
+      "action": "ToggleCamera",
+      "key": "C",
+      "neg": false
+    },
+    {
+      "action": "ToggleCamera",
+      "key": "Gamepad_Special_Left",
+      "neg": false
+    }
+  ],
+  "count": 16
+}

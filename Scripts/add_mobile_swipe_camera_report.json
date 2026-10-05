@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "note": "added invisible center swipe look zone using Gamepad_RightX/Y; fixed buttons remain left/right and non-drag visible",
+  "updated_mappings": [
+    [
+      "/Game/VehicleTemplate/Input/IMC_Vehicle_Default",
+      "saved"
+    ],
+    [
+      "/Game/VehicleTemplate/Input/IMC_Vehicle_MouseLook",
+      "saved"
+    ],
+    [
+      "/Game/VehicleTemplate/Input/IMC_SteeringWheel",
+      "saved"
+    ]
+  ],
+  "controls": [
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_AUTOONLY.T_AUTOONLY'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_AUTOONLY.T_AUTOONLY'\",Center=(X=0.075000,Y=0.075000),VisualSize=(X=0.105000,Y=0.105000),ThumbSize=(X=0.000000,Y=0.000000),InteractionSize=(X=0.108000,Y=0.108000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=F10,AltInputKey=None)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_CAMERA.T_CAMERA'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_CAMERA.T_CAMERA'\",Center=(X=0.930000,Y=0.075000),VisualSize=(X=0.105000,Y=0.105000),ThumbSize=(X=0.000000,Y=0.000000),InteractionSize=(X=0.108000,Y=0.108000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=C,AltInputKey=Tab)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_FORWARD.T_FORWARD'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_FORWARD.T_FORWARD'\",Center=(X=0.095000,Y=0.360000),VisualSize=(X=0.105000,Y=0.105000),ThumbSize=(X=0.000000,Y=0.000000),InteractionSize=(X=0.108000,Y=0.108000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=W,AltInputKey=Up)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_BRAKE.T_BRAKE'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_BRAKE.T_BRAKE'\",Center=(X=0.095000,Y=0.520000),VisualSize=(X=0.105000,Y=0.105000),ThumbSize=(X=0.000000,Y=0.000000),InteractionSize=(X=0.108000,Y=0.108000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=S,AltInputKey=Down)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_HANDBRAKE.T_HANDBRAKE'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_HANDBRAKE.T_HANDBRAKE'\",Center=(X=0.095000,Y=0.680000),VisualSize=(X=0.105000,Y=0.105000),ThumbSize=(X=0.000000,Y=0.000000),InteractionSize=(X=0.108000,Y=0.108000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=SpaceBar,AltInputKey=None)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_LEFT.T_LEFT'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_LEFT.T_LEFT'\",Center=(X=0.795000,Y=0.760000),VisualSize=(X=0.105000,Y=0.105000),ThumbSize=(X=0.000000,Y=0.000000),InteractionSize=(X=0.108000,Y=0.108000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=A,AltInputKey=Left)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_RIGHT.T_RIGHT'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_RIGHT.T_RIGHT'\",Center=(X=0.925000,Y=0.760000),VisualSize=(X=0.105000,Y=0.105000),ThumbSize=(X=0.000000,Y=0.000000),InteractionSize=(X=0.108000,Y=0.108000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=D,AltInputKey=Right)",
+    "(bTreatAsButton=False,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_CAMERA.T_CAMERA'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchControlsV2/T_CAMERA.T_CAMERA'\",Center=(X=0.500000,Y=0.420000),VisualSize=(X=0.001000,Y=0.001000),ThumbSize=(X=0.000000,Y=0.000000),InteractionSize=(X=0.460000,Y=0.480000),InputScale=(X=1.400000,Y=-1.000000),MainInputKey=Gamepad_RightX,AltInputKey=Gamepad_RightY)"
+  ]
+}

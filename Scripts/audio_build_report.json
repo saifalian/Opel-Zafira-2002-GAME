@@ -1,0 +1,37 @@
+{
+  "status": "saved",
+  "authenticity": "NOT original Opel: Iveco Daily 3.0 CC0 Joseph Sardin BigSoundBank fallback; approximate RPM/load model, not calibrated recording RPM.",
+  "success": true,
+  "errors": [],
+  "scalar_preserved": {
+    "mass": 1485.0,
+    "drag_coefficient": 0.23000000417232513,
+    "chassis_width": 174.0,
+    "chassis_height": 145.0
+  },
+  "structs_preserved": {
+    "engine_setup": "(TorqueCurve=(EditorCurveData=(Keys=((Value=0.400000),(Time=800.000000,Value=0.500000),(Time=1200.000000,Value=0.800000),(Time=1500.000000,Value=1.000000),(Time=2750.000000,Value=1.000000),(Time=3500.000000,Value=0.860000),(Time=4000.000000,Value=0.784406),(Time=4500.000000,Value=0.620000),(Time=4700.000000,Value=0.300000)),DefaultValue=340282346638528859811704183484516925440.000000,PreInfinityExtrap=RCCE_Constant,PostInfinityExtrap=RCCE_Constant),ExternalCurve=None),MaxTorque=280.000000,MaxRPM=4700.000000,EngineIdleRPM=800.000000,EngineBrakeEffect=0.100000,EngineRevUpMOI=1.000000,EngineRevDownRate=600.000000)",
+    "transmission_setup": "(bUseAutomaticGears=True,bUseAutoReverse=True,FinalRatio=3.818000,ForwardGearRatios=(3.670000,1.880000,1.180000,0.890000,0.660000),ReverseGearRatios=(3.430000),ChangeUpRPM=4200.000000,ChangeDownRPM=1500.000000,GearChangeTime=0.350000,TransmissionEfficiency=0.900000)",
+    "differential_setup": "(DifferentialType=FrontWheelDrive,FrontRearSplit=0.500000)"
+  },
+  "wheel_setups": [
+    "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+    "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+    "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+    "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))"
+  ],
+  "graphs": [
+    "UserConstructionScript",
+    "BrakeLights",
+    "Flipped Check",
+    "ZafiraCycleCamera",
+    "ZafiraCameraLook",
+    "ZafiraToggleTransmission",
+    "ZafiraShiftUp",
+    "ZafiraShiftDown",
+    "ZafiraTransmissionInput",
+    "ZafiraUpdateDieselAudio",
+    "EventGraph"
+  ],
+  "implementation": "Two autoactivated looping AudioComponents; native Blueprint tick smoothed actual Chaos RPM/throttle pitch and crossfade. No startup replay, no runtime Python."
+}

@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "removed": [
+    "SkyAtmosphere"
+  ],
+  "assigned_count": 8,
+  "assigned": [
+    "LT_Barriers",
+    "LT_CityBuildings",
+    "LT_Curbs_L",
+    "LT_Curbs_R",
+    "LT_Road",
+    "LT_StartGantry",
+    "LT_Terrain",
+    "LT_Trees"
+  ]
+}

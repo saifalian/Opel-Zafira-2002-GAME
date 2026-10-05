@@ -1,0 +1,198 @@
+[
+  {
+    "label": "FORCED_VISIBLE_GREY_ROAD",
+    "class": "StaticMeshActor",
+    "loc": [
+      2000.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      80.0,
+      18.0,
+      1.0
+    ]
+  },
+  {
+    "label": "FORCED_VISIBLE_GREEN_LEFT",
+    "class": "StaticMeshActor",
+    "loc": [
+      2000.0,
+      -2500.0,
+      -10.0
+    ],
+    "scale": [
+      80.0,
+      8.0,
+      1.0
+    ]
+  },
+  {
+    "label": "FORCED_VISIBLE_GREEN_RIGHT",
+    "class": "StaticMeshActor",
+    "loc": [
+      2000.0,
+      2500.0,
+      -10.0
+    ],
+    "scale": [
+      80.0,
+      8.0,
+      1.0
+    ]
+  },
+  {
+    "label": "FORCED_VISIBLE_RED_WALL",
+    "class": "StaticMeshActor",
+    "loc": [
+      5500.0,
+      -1100.0,
+      300.0
+    ],
+    "scale": [
+      2.0,
+      2.0,
+      8.0
+    ]
+  },
+  {
+    "label": "FORCED_VISIBLE_YELLOW_WALL",
+    "class": "StaticMeshActor",
+    "loc": [
+      5500.0,
+      1100.0,
+      300.0
+    ],
+    "scale": [
+      2.0,
+      2.0,
+      8.0
+    ]
+  },
+  {
+    "label": "FORCED_VISIBLE_PLAYER_CAMERA",
+    "class": "CameraActor",
+    "loc": [
+      -1600.0,
+      0.0,
+      800.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "label": "FORCED_VISIBLE_SUN",
+    "class": "DirectionalLight",
+    "loc": [
+      0.0,
+      0.0,
+      4000.0
+    ],
+    "scale": [
+      2.5,
+      2.5,
+      2.5
+    ]
+  },
+  {
+    "label": "CAMERA_TEST_ROAD",
+    "class": "StaticMeshActor",
+    "loc": [
+      86924.34,
+      -163.05,
+      329.03999999999996
+    ],
+    "scale": [
+      60.0,
+      18.0,
+      0.5
+    ]
+  },
+  {
+    "label": "CAMERA_TEST_GRASS_L",
+    "class": "StaticMeshActor",
+    "loc": [
+      86924.34,
+      -1863.05,
+      319.03999999999996
+    ],
+    "scale": [
+      60.0,
+      8.0,
+      0.5
+    ]
+  },
+  {
+    "label": "CAMERA_TEST_GRASS_R",
+    "class": "StaticMeshActor",
+    "loc": [
+      86924.34,
+      1536.95,
+      319.03999999999996
+    ],
+    "scale": [
+      60.0,
+      8.0,
+      0.5
+    ]
+  },
+  {
+    "label": "CAMERA_TEST_RED_LEFT",
+    "class": "StaticMeshActor",
+    "loc": [
+      87224.34,
+      -813.05,
+      589.04
+    ],
+    "scale": [
+      20.0,
+      1.0,
+      5.0
+    ]
+  },
+  {
+    "label": "CAMERA_TEST_YELLOW_RIGHT",
+    "class": "StaticMeshActor",
+    "loc": [
+      87224.34,
+      486.95,
+      589.04
+    ],
+    "scale": [
+      20.0,
+      1.0,
+      5.0
+    ]
+  },
+  {
+    "label": "CAMERA_TEST_BLUE_BACKDROP",
+    "class": "StaticMeshActor",
+    "loc": [
+      90724.34,
+      -163.05,
+      2189.04
+    ],
+    "scale": [
+      1.0,
+      70.0,
+      35.0
+    ]
+  },
+  {
+    "label": "CAMERA_TEST_WHITE_MARKER",
+    "class": "StaticMeshActor",
+    "loc": [
+      85824.34,
+      -163.05,
+      639.04
+    ],
+    "scale": [
+      2.0,
+      12.0,
+      1.0
+    ]
+  }
+]

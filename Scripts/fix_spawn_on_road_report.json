@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "playerstart": [
+    1800.0,
+    0.0,
+    520.0
+  ],
+  "changed": [
+    "PlayerStart_0",
+    "removed BT_Start_Gantry_L",
+    "removed BT_Start_Gantry_R",
+    "removed BT_Start_Gantry_Top"
+  ],
+  "save_map": true,
+  "note": "Moved spawn onto clear asphalt past gantry/seam and removed ugly/blocking gantry."
+}

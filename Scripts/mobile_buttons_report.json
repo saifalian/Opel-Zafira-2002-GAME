@@ -1,0 +1,22 @@
+{
+  "imported": [
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_BRAKE",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_CAMERA",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_GAS",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_HAND",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_LOOK",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_RESET",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_STEER"
+  ],
+  "touch_interface": "/Game/VehicleTemplate/Input/TI_ZafiraMobile",
+  "controls": [
+    "(bTreatAsButton=False,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_STEER.T_Button_STEER'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_STEER.T_Button_STEER'\",Center=(X=0.160000,Y=0.760000),VisualSize=(X=180.000000,Y=180.000000),ThumbSize=(X=72.000000,Y=72.000000),InteractionSize=(X=260.000000,Y=260.000000),InputScale=(X=1.000000,Y=-1.000000),MainInputKey=Gamepad_LeftX,AltInputKey=Gamepad_LeftY)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_GAS.T_Button_GAS'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_GAS.T_Button_GAS'\",Center=(X=0.860000,Y=0.580000),VisualSize=(X=145.000000,Y=145.000000),ThumbSize=(X=72.000000,Y=72.000000),InteractionSize=(X=180.000000,Y=180.000000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=Gamepad_RightTriggerAxis,AltInputKey=None)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_BRAKE.T_Button_BRAKE'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_BRAKE.T_Button_BRAKE'\",Center=(X=0.860000,Y=0.800000),VisualSize=(X=145.000000,Y=145.000000),ThumbSize=(X=72.000000,Y=72.000000),InteractionSize=(X=180.000000,Y=180.000000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=Gamepad_LeftTriggerAxis,AltInputKey=None)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_HAND.T_Button_HAND'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_HAND.T_Button_HAND'\",Center=(X=0.680000,Y=0.800000),VisualSize=(X=120.000000,Y=120.000000),ThumbSize=(X=72.000000,Y=72.000000),InteractionSize=(X=150.000000,Y=150.000000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=Gamepad_RightShoulder,AltInputKey=None)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_CAMERA.T_Button_CAMERA'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_CAMERA.T_Button_CAMERA'\",Center=(X=0.700000,Y=0.580000),VisualSize=(X=110.000000,Y=110.000000),ThumbSize=(X=72.000000,Y=72.000000),InteractionSize=(X=140.000000,Y=140.000000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=Gamepad_LeftShoulder,AltInputKey=None)",
+    "(bTreatAsButton=True,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_RESET.T_Button_RESET'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_RESET.T_Button_RESET'\",Center=(X=0.530000,Y=0.800000),VisualSize=(X=105.000000,Y=105.000000),ThumbSize=(X=72.000000,Y=72.000000),InteractionSize=(X=135.000000,Y=135.000000),InputScale=(X=1.000000,Y=1.000000),MainInputKey=Gamepad_Special_Right,AltInputKey=None)",
+    "(bTreatAsButton=False,Image1=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_LOOK.T_Button_LOOK'\",Image2=\"/Script/Engine.Texture2D'/Game/VehicleTemplate/Input/TouchLabels/T_Button_LOOK.T_Button_LOOK'\",Center=(X=0.530000,Y=0.580000),VisualSize=(X=105.000000,Y=105.000000),ThumbSize=(X=72.000000,Y=72.000000),InteractionSize=(X=150.000000,Y=150.000000),InputScale=(X=1.000000,Y=-1.000000),MainInputKey=Gamepad_RightX,AltInputKey=Gamepad_RightY)"
+  ],
+  "success": true
+}

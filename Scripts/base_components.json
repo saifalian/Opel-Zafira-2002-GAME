@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Default__BP_VehicleAdvPawnBase_C",
+    "class": "BP_VehicleAdvPawnBase_C"
+  },
+  {
+    "name": "ZafiraDieselRun_GEN_VARIABLE",
+    "class": "AudioComponent"
+  },
+  {
+    "name": "ZafiraDieselIdle_GEN_VARIABLE",
+    "class": "AudioComponent"
+  },
+  {
+    "name": "BackCamera_GEN_VARIABLE",
+    "class": "CameraComponent"
+  },
+  {
+    "name": "BackCamera_GEN_VARIABLE",
+    "class": "CameraComponent"
+  },
+  {
+    "name": "FrontCamera_GEN_VARIABLE",
+    "class": "CameraComponent"
+  },
+  {
+    "name": "BackSpringArm_GEN_VARIABLE",
+    "class": "SpringArmComponent"
+  },
+  {
+    "name": "FrontCamera_GEN_VARIABLE",
+    "class": "CameraComponent"
+  },
+  {
+    "name": "FrontSpringArm_GEN_VARIABLE",
+    "class": "SpringArmComponent"
+  },
+  {
+    "name": "VehicleMesh",
+    "class": "SkeletalMeshComponent"
+  },
+  {
+    "name": "VehicleMovementComp",
+    "class": "ChaosWheeledVehicleMovementComponent"
+  }
+]

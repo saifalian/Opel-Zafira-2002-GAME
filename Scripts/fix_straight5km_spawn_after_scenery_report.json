@@ -1,0 +1,6 @@
+{
+  "success": true,
+  "map": "/Game/Zafira/Maps/ZafiraStraight5KM",
+  "game_mode": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvGameMode",
+  "player_start": "700,0,180"
+}

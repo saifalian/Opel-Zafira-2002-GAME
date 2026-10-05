@@ -1,0 +1,90 @@
+[
+  {
+    "node": "K2Node_FunctionEntry_0",
+    "title": "ZafiraTransmissionInput",
+    "class": "K2Node_FunctionEntry",
+    "pins": [
+      {
+        "name": "then",
+        "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+        "value": "",
+        "type": "Exec"
+      }
+    ]
+  },
+  {
+    "node": "K2Node_CallFunction_2",
+    "title": "WasInputKeyJustPressed",
+    "class": "K2Node_CallFunction",
+    "pins": [
+      {
+        "name": "self",
+        "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+        "value": "",
+        "type": "Player Controller Object Reference"
+      },
+      {
+        "name": "Key",
+        "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+        "value": "(",
+        "type": "Key Structure"
+      },
+      {
+        "name": "ReturnValue",
+        "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+        "value": "false",
+        "type": "Boolean"
+      }
+    ]
+  },
+  {
+    "node": "K2Node_CallFunction_5",
+    "title": "WasInputKeyJustPressed",
+    "class": "K2Node_CallFunction",
+    "pins": [
+      {
+        "name": "self",
+        "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+        "value": "",
+        "type": "Player Controller Object Reference"
+      },
+      {
+        "name": "Key",
+        "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+        "value": "(",
+        "type": "Key Structure"
+      },
+      {
+        "name": "ReturnValue",
+        "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+        "value": "false",
+        "type": "Boolean"
+      }
+    ]
+  },
+  {
+    "node": "K2Node_CallFunction_8",
+    "title": "WasInputKeyJustPressed",
+    "class": "K2Node_CallFunction",
+    "pins": [
+      {
+        "name": "self",
+        "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+        "value": "",
+        "type": "Player Controller Object Reference"
+      },
+      {
+        "name": "Key",
+        "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+        "value": "(",
+        "type": "Key Structure"
+      },
+      {
+        "name": "ReturnValue",
+        "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+        "value": "false",
+        "type": "Boolean"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "success": true,
+  "change": "Temporarily set GameModes to DefaultPawn/default PlayerController/no HUD so map renders instead of failed BP_Zafira spawn black screen."
+}

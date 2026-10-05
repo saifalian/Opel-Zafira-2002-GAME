@@ -1,0 +1,26 @@
+{
+  "parents": [
+    {
+      "name": "VerticalBox_76",
+      "class": "VerticalBox",
+      "slot": "<Object '/Game/VehicleTemplate/UI/UI_Vehicle.UI_Vehicle:WidgetTree.SizeBox_0.SizeBoxSlot_0' (0x000001FA94BF4EC0) Class 'SizeBoxSlot'>"
+    },
+    {
+      "name": "SizeBox_0",
+      "class": "SizeBox",
+      "slot": "<Object '/Game/VehicleTemplate/UI/UI_Vehicle.UI_Vehicle:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0' (0x000001FA94BF7540) Class 'HorizontalBoxSlot'>"
+    },
+    {
+      "name": "HorizontalBox_0",
+      "class": "HorizontalBox",
+      "slot": "<Object '/Game/VehicleTemplate/UI/UI_Vehicle.UI_Vehicle:WidgetTree.Overlay_67.OverlaySlot_0' (0x000001FA94982160) Class 'OverlaySlot'>"
+    },
+    {
+      "name": "Overlay_67",
+      "class": "Overlay",
+      "slot": "None"
+    }
+  ],
+  "success": true,
+  "errors": []
+}

@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "removed_template_actors": [
+    "SM_SkySphere",
+    "Floor"
+  ],
+  "save_map": true,
+  "note": "Removed checker template floor/blocks and added green terrain/dirt/tree scenery near playable camera path."
+}

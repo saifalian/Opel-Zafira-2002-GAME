@@ -1,0 +1,42 @@
+{
+  "/Game/Zafira/BP_WheelsFront": {
+    "class": "BP_WheelsFront_C",
+    "wheel_radius": "30.46500015258789",
+    "wheel_width": "19.5",
+    "cornering_stiffness": "1000.0",
+    "friction_force_multiplier": "2.0",
+    "side_slip_modifier": "1.0",
+    "slip_threshold": "20.0",
+    "skid_threshold": "20.0",
+    "max_steer_angle": "35.0",
+    "affected_by_engine": "True",
+    "affected_by_brake": "True",
+    "affected_by_handbrake": "False",
+    "axle_type": "<AxleType.FRONT: 1>",
+    "spring_rate": "300.0",
+    "spring_preload": "50.0",
+    "suspension_max_raise": "10.0",
+    "suspension_max_drop": "12.0",
+    "wheel_load_ratio": "0.5"
+  },
+  "/Game/Zafira/BP_WheelsRear": {
+    "class": "BP_WheelsRear_C",
+    "wheel_radius": "30.46500015258789",
+    "wheel_width": "19.5",
+    "cornering_stiffness": "1000.0",
+    "friction_force_multiplier": "2.0",
+    "side_slip_modifier": "1.0",
+    "slip_threshold": "100.0",
+    "skid_threshold": "100.0",
+    "max_steer_angle": "0.0",
+    "affected_by_engine": "False",
+    "affected_by_brake": "True",
+    "affected_by_handbrake": "True",
+    "axle_type": "<AxleType.REAR: 2>",
+    "spring_rate": "260.0",
+    "spring_preload": "50.0",
+    "suspension_max_raise": "10.0",
+    "suspension_max_drop": "12.0",
+    "wheel_load_ratio": "0.5"
+  }
+}

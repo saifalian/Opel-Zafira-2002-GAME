@@ -1,0 +1,36 @@
+{
+  "/Game/VehicleTemplate/Input/IMC_Vehicle_Default": [
+    "unmap_all ok",
+    "IA_Throttle->W:W",
+    "IA_Throttle->Up:Up",
+    "IA_Throttle->Gamepad_RightTriggerAxis:Gamepad_RightTriggerAxis",
+    "IA_Brake->S:S",
+    "IA_Brake->Down:Down",
+    "IA_Brake->Gamepad_LeftTriggerAxis:Gamepad_LeftTriggerAxis",
+    "IA_Steering->A:A",
+    "IA_Steering->D:D",
+    "IA_Steering->Left:Left",
+    "IA_Steering->Right:Right",
+    "IA_Steering->Gamepad_LeftX:Gamepad_LeftX",
+    "IA_Handbrake->SpaceBar:SpaceBar",
+    "IA_Handbrake->Gamepad_FaceButton_Bottom:Gamepad_FaceButton_Bottom",
+    "default={'mappings': <Array object at 0x000001A84B33D8B0>}"
+  ],
+  "/Game/Input/IMC_Default": [
+    "unmap_all ok",
+    "IA_Throttle->W:W",
+    "IA_Throttle->Up:Up",
+    "IA_Throttle->Gamepad_RightTriggerAxis:Gamepad_RightTriggerAxis",
+    "IA_Brake->S:S",
+    "IA_Brake->Down:Down",
+    "IA_Brake->Gamepad_LeftTriggerAxis:Gamepad_LeftTriggerAxis",
+    "IA_Steering->A:A",
+    "IA_Steering->D:D",
+    "IA_Steering->Left:Left",
+    "IA_Steering->Right:Right",
+    "IA_Steering->Gamepad_LeftX:Gamepad_LeftX",
+    "IA_Handbrake->SpaceBar:SpaceBar",
+    "IA_Handbrake->Gamepad_FaceButton_Bottom:Gamepad_FaceButton_Bottom",
+    "default={'mappings': <Array object at 0x000001A84B33C970>}"
+  ]
+}

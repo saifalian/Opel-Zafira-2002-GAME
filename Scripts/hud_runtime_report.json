@@ -1,0 +1,378 @@
+{
+  "rows": [
+    {
+      "t": 0.25,
+      "rpm": 800.0,
+      "kmh": 6.525935950077486e-17,
+      "gear": 0,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "Km/h",
+        "SpeedLabel": "99",
+        "GearLabel": "5"
+      }
+    },
+    {
+      "t": 0.7603959999978542,
+      "rpm": 800.0,
+      "kmh": 0.37960832977294917,
+      "gear": 0,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 800  |  AUTO",
+        "SpeedLabel": "000",
+        "GearLabel": "N"
+      }
+    },
+    {
+      "t": 1.276188399642706,
+      "rpm": 800.0,
+      "kmh": 0.014203013420104979,
+      "gear": 0,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 800  |  AUTO",
+        "SpeedLabel": "000",
+        "GearLabel": "N"
+      }
+    },
+    {
+      "t": 1.7924541980028152,
+      "rpm": 800.0,
+      "kmh": 0.0,
+      "gear": 0,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 800  |  AUTO",
+        "SpeedLabel": "000",
+        "GearLabel": "N"
+      }
+    },
+    {
+      "t": 2.2935268990695477,
+      "rpm": 800.0,
+      "kmh": 0.0,
+      "gear": 0,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 800  |  AUTO",
+        "SpeedLabel": "000",
+        "GearLabel": "N"
+      }
+    },
+    {
+      "t": 2.809477999806404,
+      "rpm": 800.0,
+      "kmh": 0.0,
+      "gear": 0,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 800  |  AUTO",
+        "SpeedLabel": "000",
+        "GearLabel": "N"
+      }
+    },
+    {
+      "t": 3.309877198189497,
+      "rpm": 800.0,
+      "kmh": 2.717501495361328,
+      "gear": 1,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 800  |  AUTO",
+        "SpeedLabel": "002",
+        "GearLabel": "1"
+      }
+    },
+    {
+      "t": 3.8104602992534637,
+      "rpm": 939.440673828125,
+      "kmh": 10.372229736328125,
+      "gear": 1,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 921  |  AUTO",
+        "SpeedLabel": "010",
+        "GearLabel": "1"
+      }
+    },
+    {
+      "t": 4.310879196971655,
+      "rpm": 3020.3251953125,
+      "kmh": 18.974335693359375,
+      "gear": 1,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2973  |  AUTO",
+        "SpeedLabel": "019",
+        "GearLabel": "1"
+      }
+    },
+    {
+      "t": 4.811143700033426,
+      "rpm": 3823.9951171875,
+      "kmh": 27.513566894531248,
+      "gear": 1,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3802  |  AUTO",
+        "SpeedLabel": "027",
+        "GearLabel": "1"
+      }
+    },
+    {
+      "t": 5.326323997229338,
+      "rpm": 4370.6220703125,
+      "kmh": 36.262261230468745,
+      "gear": 1,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 4356  |  AUTO",
+        "SpeedLabel": "036",
+        "GearLabel": "1"
+      }
+    },
+    {
+      "t": 5.843153797090054,
+      "rpm": 3523.2275390625,
+      "kmh": 38.7448857421875,
+      "gear": 2,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3604  |  AUTO",
+        "SpeedLabel": "039",
+        "GearLabel": "2"
+      }
+    },
+    {
+      "t": 6.344473399221897,
+      "rpm": 2779.248046875,
+      "kmh": 45.38919726562499,
+      "gear": 2,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2777  |  AUTO",
+        "SpeedLabel": "045",
+        "GearLabel": "2"
+      }
+    },
+    {
+      "t": 6.85997049883008,
+      "rpm": 3066.4404296875,
+      "kmh": 52.273208496093744,
+      "gear": 2,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3054  |  AUTO",
+        "SpeedLabel": "052",
+        "GearLabel": "2"
+      }
+    },
+    {
+      "t": 7.3755478002130985,
+      "rpm": 3461.36962890625,
+      "kmh": 58.597233398437496,
+      "gear": 2,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3449  |  AUTO",
+        "SpeedLabel": "058",
+        "GearLabel": "2"
+      }
+    },
+    {
+      "t": 7.876365799456835,
+      "rpm": 3825.555908203125,
+      "kmh": 64.19063232421874,
+      "gear": 2,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3814  |  AUTO",
+        "SpeedLabel": "064",
+        "GearLabel": "2"
+      }
+    },
+    {
+      "t": 8.394141897559166,
+      "rpm": 4172.26708984375,
+      "kmh": 69.45378662109374,
+      "gear": 2,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 4162  |  AUTO",
+        "SpeedLabel": "069",
+        "GearLabel": "2"
+      }
+    },
+    {
+      "t": 8.910063900053501,
+      "rpm": 3336.10302734375,
+      "kmh": 70.43529638671875,
+      "gear": 3,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3378  |  AUTO",
+        "SpeedLabel": "070",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 9.411176096647978,
+      "rpm": 2921.66357421875,
+      "kmh": 73.549001953125,
+      "gear": 3,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2925  |  AUTO",
+        "SpeedLabel": "073",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 9.926290195435286,
+      "rpm": 2973.57568359375,
+      "kmh": 77.47438183593749,
+      "gear": 3,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2970  |  AUTO",
+        "SpeedLabel": "077",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 10.427585698664188,
+      "rpm": 3108.1015625,
+      "kmh": 81.1423740234375,
+      "gear": 3,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3103  |  AUTO",
+        "SpeedLabel": "081",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 10.927614197134972,
+      "rpm": 3247.560302734375,
+      "kmh": 84.65559960937499,
+      "gear": 3,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3243  |  AUTO",
+        "SpeedLabel": "085",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 11.428286097943783,
+      "rpm": 3304.9970703125,
+      "kmh": 83.352568359375,
+      "gear": 3,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3307  |  AUTO",
+        "SpeedLabel": "083",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 11.945735096931458,
+      "rpm": 3202.327392578125,
+      "kmh": 80.02215527343749,
+      "gear": 3,
+      "auto": true,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3206  |  AUTO",
+        "SpeedLabel": "080",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 12.447739697992802,
+      "rpm": 3081.76708984375,
+      "kmh": 76.924458984375,
+      "gear": 3,
+      "auto": false,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 3086  |  MANUAL",
+        "SpeedLabel": "077",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 12.961412698030472,
+      "rpm": 2959.14501953125,
+      "kmh": 73.85606542968749,
+      "gear": 3,
+      "auto": false,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2963  |  MANUAL",
+        "SpeedLabel": "074",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 13.477524597197771,
+      "rpm": 2841.302001953125,
+      "kmh": 70.91733691406249,
+      "gear": 3,
+      "auto": false,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2845  |  MANUAL",
+        "SpeedLabel": "071",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 13.977781895548105,
+      "rpm": 2731.9501953125,
+      "kmh": 68.1912685546875,
+      "gear": 3,
+      "auto": false,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2736  |  MANUAL",
+        "SpeedLabel": "068",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 14.493856698274612,
+      "rpm": 2623.618408203125,
+      "kmh": 65.49051269531249,
+      "gear": 3,
+      "auto": false,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2627  |  MANUAL",
+        "SpeedLabel": "066",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 14.994265295565128,
+      "rpm": 2523.100830078125,
+      "kmh": 62.984342285156245,
+      "gear": 3,
+      "auto": false,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2526  |  MANUAL",
+        "SpeedLabel": "063",
+        "GearLabel": "3"
+      }
+    },
+    {
+      "t": 15.511240497231483,
+      "rpm": 2423.491455078125,
+      "kmh": 60.500588378906244,
+      "gear": 3,
+      "auto": false,
+      "texts": {
+        "UnitLabel": "km/h  |  RPM 2427  |  MANUAL",
+        "SpeedLabel": "061",
+        "GearLabel": "3"
+      }
+    }
+  ],
+  "error": null,
+  "success": true
+}

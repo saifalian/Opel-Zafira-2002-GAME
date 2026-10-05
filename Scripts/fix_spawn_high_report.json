@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "removed": [],
+  "playerstart": [
+    84724,
+    -163,
+    2200
+  ],
+  "note": "Raised PlayerStart far above collision and removed blocking placed vehicle/pawn actors."
+}

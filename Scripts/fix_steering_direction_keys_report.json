@@ -1,0 +1,36 @@
+{
+  "/Game/VehicleTemplate/Input/IMC_Vehicle_Default": [
+    "unmap_all ok",
+    "IA_Throttle->W key=W mods=[]",
+    "IA_Throttle->Up key=Up mods=[]",
+    "IA_Brake->S key=S mods=[]",
+    "IA_Brake->Down key=Down mods=[]",
+    "IA_Steering->A key=A mods=['InputModifierNegate']",
+    "IA_Steering->Left key=Left mods=['InputModifierNegate']",
+    "IA_Steering->D key=D mods=[]",
+    "IA_Steering->Right key=Right mods=[]",
+    "IA_Handbrake->SpaceBar key=SpaceBar mods=[]"
+  ],
+  "/Game/Input/IMC_Default": [
+    "unmap_all ok",
+    "IA_Throttle->W key=W mods=[]",
+    "IA_Throttle->Up key=Up mods=[]",
+    "IA_Brake->S key=S mods=[]",
+    "IA_Brake->Down key=Down mods=[]",
+    "IA_Steering->A key=A mods=['InputModifierNegate']",
+    "IA_Steering->Left key=Left mods=['InputModifierNegate']",
+    "IA_Steering->D key=D mods=[]",
+    "IA_Steering->Right key=Right mods=[]",
+    "IA_Handbrake->SpaceBar key=SpaceBar mods=[]"
+  ],
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase": [
+    "set_use_automatic_gears ok",
+    "set_target_gear ok",
+    "set_requires_controller_for_inputs ok"
+  ],
+  "/Game/Zafira/BP_Zafira": [
+    "set_use_automatic_gears ok",
+    "set_target_gear ok",
+    "set_requires_controller_for_inputs ok"
+  ]
+}

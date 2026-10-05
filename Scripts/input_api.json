@@ -1,0 +1,21 @@
+{
+  "TouchInterface": [
+    "get_default_object",
+    "get_editor_property",
+    "is_editor_property_overridden",
+    "reset_editor_property",
+    "set_editor_property"
+  ],
+  "InputSettings": [
+    "get_default_object",
+    "get_editor_property",
+    "is_editor_property_overridden",
+    "reset_editor_property",
+    "set_editor_property"
+  ],
+  "input_settings_props": {
+    "always_show_touch_interface": "True",
+    "default_touch_interface": "<Struct 'SoftObjectPath' (0x000002CBB073AEC8) {}>",
+    "use_mouse_for_touch": "False"
+  }
+}

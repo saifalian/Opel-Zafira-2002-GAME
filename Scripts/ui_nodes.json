@@ -1,0 +1,73 @@
+{
+  "/Game/VehicleTemplate/Input/UI_Touch_Vehicle": [
+    {
+      "name": "K2Node_Message_6",
+      "title": "Touch Handbrake Start",
+      "class": "K2Node_Message"
+    },
+    {
+      "name": "K2Node_Message_7",
+      "title": "Touch Handbrake End",
+      "class": "K2Node_Message"
+    },
+    {
+      "name": "K2Node_Message_10",
+      "title": "Touch Reset",
+      "class": "K2Node_Message"
+    },
+    {
+      "name": "K2Node_Message_12",
+      "title": "Touch Toggle Camera",
+      "class": "K2Node_Message"
+    },
+    {
+      "name": "K2Node_Message_0",
+      "title": "Touch Headlights",
+      "class": "K2Node_Message"
+    }
+  ],
+  "/Game/VehicleTemplate/UI/UI_Vehicle": [],
+  "/Game/Zafira/BP_ZafiraGameMode": [],
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController": [
+    {
+      "name": "K2Node_CreateWidget_0",
+      "title": "Create Widget",
+      "class": "K2Node_CreateWidget"
+    },
+    {
+      "name": "K2Node_VariableGet_2",
+      "title": "Get Touch Controls Widget Class",
+      "class": "K2Node_VariableGet"
+    },
+    {
+      "name": "K2Node_CreateWidget_1",
+      "title": "Create Widget",
+      "class": "K2Node_CreateWidget"
+    },
+    {
+      "name": "K2Node_VariableSet_0",
+      "title": "Set VehicleHud",
+      "class": "K2Node_VariableSet"
+    },
+    {
+      "name": "K2Node_VariableGet_5",
+      "title": "Get VehicleHud",
+      "class": "K2Node_VariableGet"
+    },
+    {
+      "name": "K2Node_VariableGet_0",
+      "title": "Get VehicleHud",
+      "class": "K2Node_VariableGet"
+    },
+    {
+      "name": "K2Node_CallFunction_3",
+      "title": "Should Use Touch Controls",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "name": "K2Node_VariableGet_4",
+      "title": "Get VehicleHud",
+      "class": "K2Node_VariableGet"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "made": [
+    "CAMERA_TEST_ROAD",
+    "CAMERA_TEST_GRASS_L",
+    "CAMERA_TEST_GRASS_R",
+    "CAMERA_TEST_RED_LEFT",
+    "CAMERA_TEST_YELLOW_RIGHT",
+    "CAMERA_TEST_BLUE_BACKDROP",
+    "CAMERA_TEST_WHITE_MARKER"
+  ],
+  "save_dirty": true,
+  "save_asset": true
+}

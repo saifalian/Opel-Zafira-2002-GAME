@@ -1,0 +1,22 @@
+{
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase": [
+    "set_use_automatic_gears[True] ok",
+    "set_target_gear[1, True] ok",
+    "set_requires_controller_for_inputs[False] ok",
+    "set_affected_by_engine[0, True] ok",
+    "set_affected_by_engine[1, True] ok",
+    "set_affected_by_engine[2, True] ok",
+    "set_affected_by_engine[3, True] ok",
+    "auto=True target=1"
+  ],
+  "/Game/Zafira/BP_Zafira": [
+    "set_use_automatic_gears[True] ok",
+    "set_target_gear[1, True] ok",
+    "set_requires_controller_for_inputs[False] ok",
+    "set_affected_by_engine[0, True] ok",
+    "set_affected_by_engine[1, True] ok",
+    "set_affected_by_engine[2, True] ok",
+    "set_affected_by_engine[3, True] ok",
+    "auto=True target=1"
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "vars": [
+    "bIsMPH",
+    "TimeOffset",
+    "Start Timer",
+    "Best Time",
+    "/Script/UMG.UserWidget.ColorAndOpacity",
+    "/Script/UMG.UserWidget.ColorAndOpacityDelegate",
+    "/Script/UMG.UserWidget.ForegroundColor",
+    "/Script/UMG.UserWidget.ForegroundColorDelegate",
+    "/Script/UMG.UserWidget.OnVisibilityChanged",
+    "/Script/UMG.UserWidget.Padding",
+    "/Script/UMG.UserWidget.Priority",
+    "/Script/UMG.UserWidget.bIsFocusable",
+    "/Script/UMG.UserWidget.bStopAction",
+    "/Script/UMG.UserWidget.bAutomaticallyRegisterInputOnConstruction",
+    "/Script/UMG.UserWidget.QueuedWidgetAnimationTransitions",
+    "/Script/UMG.UserWidget.ActiveSequencePlayers",
+    "/Script/UMG.UserWidget.AnimationTickManager",
+    "/Script/UMG.UserWidget.StoppedSequencePlayers",
+    "/Script/UMG.UserWidget.NamedSlotBindings",
+    "/Script/UMG.UserWidget.Extensions",
+    "/Script/UMG.UserWidget.WidgetTree",
+    "/Script/UMG.UserWidget.DesignTimeSize",
+    "/Script/UMG.UserWidget.DesignSizeMode",
+    "/Script/UMG.UserWidget.PaletteCategory",
+    "/Script/UMG.UserWidget.PreviewBackground",
+    "/Script/UMG.UserWidget.bHasScriptImplementedTick",
+    "/Script/UMG.UserWidget.bHasScriptImplementedPaint",
+    "/Script/UMG.UserWidget.TickFrequency",
+    "/Script/UMG.UserWidget.DesiredFocusWidget",
+    "/Script/UMG.UserWidget.InputComponent",
+    "/Script/UMG.UserWidget.AnimationCallbacks",
+    "/Script/UMG.Widget.Slot",
+    "/Script/UMG.Widget.bIsEnabledDelegate",
+    "/Script/UMG.Widget.ToolTipTextDelegate",
+    "/Script/UMG.Widget.ToolTipText",
+    "/Script/UMG.Widget.ToolTipWidget",
+    "/Script/UMG.Widget.ToolTipWidgetDelegate",
+    "/Script/UMG.Widget.VisibilityDelegate",
+    "/Script/UMG.Widget.RenderTransform",
+    "/Script/UMG.Widget.RenderTransformPivot",
+    "/Script/UMG.Widget.FlowDirectionPreference",
+    "/Script/UMG.Widget.bIsVariable",
+    "/Script/UMG.Widget.bCreatedByConstructionScript",
+    "/Script/UMG.Widget.bIsEnabled",
+    "/Script/UMG.Widget.bOverride_Cursor",
+    "/Script/UMG.Widget.bOverrideAccessibleDefaults",
+    "/Script/UMG.Widget.bCanChildrenBeAccessible",
+    "/Script/UMG.Widget.AccessibleBehavior",
+    "/Script/UMG.Widget.AccessibleSummaryBehavior",
+    "/Script/UMG.Widget.AccessibleText",
+    "/Script/UMG.Widget.AccessibleTextDelegate",
+    "/Script/UMG.Widget.AccessibleSummaryText",
+    "/Script/UMG.Widget.AccessibleSummaryTextDelegate",
+    "/Script/UMG.Widget.bIsVolatile",
+    "/Script/UMG.Widget.bWrappedByComponent",
+    "/Script/UMG.Widget.bHiddenInDesigner",
+    "/Script/UMG.Widget.bExpandedInDesigner",
+    "/Script/UMG.Widget.bLockedInDesigner",
+    "/Script/UMG.Widget.Cursor",
+    "/Script/UMG.Widget.Clipping",
+    "/Script/UMG.Widget.Visibility",
+    "/Script/UMG.Widget.PixelSnapping",
+    "/Script/UMG.Widget.RenderOpacity",
+    "/Script/UMG.Widget.AccessibleWidgetData",
+    "/Script/UMG.Widget.Navigation",
+    "/Script/UMG.Widget.NativeBindings",
+    "/Script/UMG.Widget.DesignerFlags",
+    "/Script/UMG.Widget.DisplayLabel",
+    "/Script/UMG.Widget.CategoryName"
+  ],
+  "graphs": {
+    "EventGraph": [
+      {
+        "title": "UpdateSpeed",
+        "name": "K2Node_CustomEvent_1",
+        "pins": [
+          {
+            "name": "OutputDelegate",
+            "value": "",
+            "links": []
+          },
+          {
+            "name": "then",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_2:execute"
+            ]
+          },
+          {
+            "name": "NewSpeed",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_7:A"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "UpdateGear",
+        "name": "K2Node_CustomEvent_2",
+        "pins": [
+          {
+            "name": "OutputDelegate",
+            "value": "",
+            "links": []
+          },
+          {
+            "name": "then",
+            "value": "",
+            "links": [
+              "K2Node_SwitchInteger_0:execute"
+            ]
+          },
+          {
+            "name": "NewGear",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_5:Value",
+              "K2Node_SwitchInteger_0:Selection"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Get GearLabel",
+        "name": "K2Node_VariableGet_1",
+        "pins": [
+          {
+            "name": "GearLabel",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_0:self",
+              "K2Node_CallFunction_1:self",
+              "K2Node_CallFunction_8:self"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SetText (Text)",
+        "name": "K2Node_CallFunction_0",
+        "pins": [
+          {
+            "name": "execute",
+            "value": "",
+            "links": [
+              "K2Node_SwitchInteger_0:Default"
+            ]
+          },
+          {
+            "name": "self",
+            "value": "",
+            "links": [
+              "K2Node_VariableGet_1:GearLabel"
+            ]
+          },
+          {
+            "name": "InText",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_5:ReturnValue"
+            ]
+          },
+          {
+            "name": "then",
+            "value": "",
+            "links": []
+          }
+        ]
+      },
+      {
+        "title": "To Text (Integer)",
+        "name": "K2Node_CallFunction_5",
+        "pins": [
+          {
+            "name": "Value",
+            "value": "0",
+            "links": [
+              "K2Node_CustomEvent_2:NewGear"
+            ]
+          },
+          {
+            "name": "bAlwaysSign",
+            "value": "false",
+            "links": []
+          },
+          {
+            "name": "bUseGrouping",
+            "value": "true",
+            "links": []
+          },
+          {
+            "name": "MinimumIntegralDigits",
+            "value": "1",
+            "links": []
+          },
+          {
+            "name": "MaximumIntegralDigits",
+            "value": "1",
+            "links": []
+          },
+          {
+            "name": "ReturnValue",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_0:InText"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SetText (Text)",
+        "name": "K2Node_CallFunction_2",
+        "pins": [
+          {
+            "name": "execute",
+            "value": "",
+            "links": [
+              "K2Node_CustomEvent_1:then"
+            ]
+          },
+          {
+            "name": "self",
+            "value": "",
+            "links": [
+              "K2Node_VariableGet_2:SpeedLabel"
+            ]
+          },
+          {
+            "name": "InText",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_6:ReturnValue"
+            ]
+          },
+          {
+            "name": "then",
+            "value": "",
+            "links": []
+          }
+        ]
+      },
+      {
+        "title": "Get SpeedLabel",
+        "name": "K2Node_VariableGet_2",
+        "pins": [
+          {
+            "name": "SpeedLabel",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_2:self"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "To Text (Float)",
+        "name": "K2Node_CallFunction_6",
+        "pins": [
+          {
+            "name": "Value",
+            "value": "0.0",
+            "links": [
+              "K2Node_PromotableOperator_1:ReturnValue"
+            ]
+          },
+          {
+            "name": "RoundingMode",
+            "value": "HalfToEven",
+            "links": []
+          },
+          {
+            "name": "bAlwaysSign",
+            "value": "false",
+            "links": []
+          },
+          {
+            "name": "bUseGrouping",
+            "value": "true",
+            "links": []
+          },
+          {
+            "name": "MinimumIntegralDigits",
+            "value": "3",
+            "links": []
+          },
+          {
+            "name": "MaximumIntegralDigits",
+            "value": "3",
+            "links": []
+          },
+          {
+            "name": "MinimumFractionalDigits",
+            "value": "0",
+            "links": []
+          },
+          {
+            "name": "MaximumFractionalDigits",
+            "value": "0",
+            "links": []
+          },
+          {
+            "name": "ReturnValue",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_2:InText"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Switch on Int",
+        "name": "K2Node_SwitchInteger_0",
+        "pins": [
+          {
+            "name": "execute",
+            "value": "",
+            "links": [
+              "K2Node_CustomEvent_2:then"
+            ]
+          },
+          {
+            "name": "Selection",
+            "value": "0",
+            "links": [
+              "K2Node_CustomEvent_2:NewGear"
+            ]
+          },
+          {
+            "name": "Default",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_0:execute"
+            ]
+          },
+          {
+            "name": "-1",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_8:execute"
+            ]
+          },
+          {
+            "name": "0",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_1:execute"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SetText (Text)",
+        "name": "K2Node_CallFunction_1",
+        "pins": [
+          {
+            "name": "execute",
+            "value": "",
+            "links": [
+              "K2Node_SwitchInteger_0:0"
+            ]
+          },
+          {
+            "name": "self",
+            "value": "",
+            "links": [
+              "K2Node_VariableGet_1:GearLabel"
+            ]
+          },
+          {
+            "name": "InText",
+            "value": "NSLOCTEXT(\"[9E0E43924D09D3EEDC90159E87F88F10]\", \"8C90B9314ED4512EBA3575BC96180A5B\", \"N\")",
+            "links": []
+          },
+          {
+            "name": "then",
+            "value": "",
+            "links": []
+          }
+        ]
+      },
+      {
+        "title": "SetText (Text)",
+        "name": "K2Node_CallFunction_8",
+        "pins": [
+          {
+            "name": "execute",
+            "value": "",
+            "links": [
+              "K2Node_SwitchInteger_0:-1"
+            ]
+          },
+          {
+            "name": "self",
+            "value": "",
+            "links": [
+              "K2Node_VariableGet_1:GearLabel"
+            ]
+          },
+          {
+            "name": "InText",
+            "value": "NSLOCTEXT(\"[9E0E43924D09D3EEDC90159E87F88F10]\", \"D7B02B5B441B6E53AEC7329820AF997E\", \"R\")",
+            "links": []
+          },
+          {
+            "name": "then",
+            "value": "",
+            "links": []
+          }
+        ]
+      },
+      {
+        "title": "float * float",
+        "name": "K2Node_PromotableOperator_1",
+        "pins": [
+          {
+            "name": "A",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_7:ReturnValue"
+            ]
+          },
+          {
+            "name": "B",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_9:ReturnValue"
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_6:Value"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Absolute (Float)",
+        "name": "K2Node_CallFunction_7",
+        "pins": [
+          {
+            "name": "A",
+            "value": "0.0",
+            "links": [
+              "K2Node_CustomEvent_1:NewSpeed"
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "value": "0.0",
+            "links": [
+              "K2Node_PromotableOperator_1:A"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SelectFloat",
+        "name": "K2Node_CallFunction_9",
+        "pins": [
+          {
+            "name": "A",
+            "value": "0.022000",
+            "links": []
+          },
+          {
+            "name": "B",
+            "value": "0.036000",
+            "links": []
+          },
+          {
+            "name": "bPickA",
+            "value": "false",
+            "links": [
+              "K2Node_VariableGet_3:bIsMPH"
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "value": "0.0",
+            "links": [
+              "K2Node_PromotableOperator_1:B"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Get bIsMPH",
+        "name": "K2Node_VariableGet_3",
+        "pins": [
+          {
+            "name": "bIsMPH",
+            "value": "false",
+            "links": [
+              "K2Node_CallFunction_9:bPickA"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Event PreConstruct",
+        "name": "K2Node_Event_0",
+        "pins": [
+          {
+            "name": "OutputDelegate",
+            "value": "",
+            "links": []
+          },
+          {
+            "name": "then",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_10:execute"
+            ]
+          },
+          {
+            "name": "IsDesignTime",
+            "value": "false",
+            "links": []
+          }
+        ]
+      },
+      {
+        "title": "Get bIsMPH",
+        "name": "K2Node_VariableGet_0",
+        "pins": [
+          {
+            "name": "bIsMPH",
+            "value": "false",
+            "links": [
+              "K2Node_Select_0:Index"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Get UnitLabel",
+        "name": "K2Node_VariableGet_4",
+        "pins": [
+          {
+            "name": "UnitLabel",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_10:self"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SetText (Text)",
+        "name": "K2Node_CallFunction_10",
+        "pins": [
+          {
+            "name": "execute",
+            "value": "",
+            "links": [
+              "K2Node_Event_0:then"
+            ]
+          },
+          {
+            "name": "self",
+            "value": "",
+            "links": [
+              "K2Node_VariableGet_4:UnitLabel"
+            ]
+          },
+          {
+            "name": "InText",
+            "value": "",
+            "links": [
+              "K2Node_Select_0:ReturnValue"
+            ]
+          },
+          {
+            "name": "then",
+            "value": "",
+            "links": []
+          }
+        ]
+      },
+      {
+        "title": "Select",
+        "name": "K2Node_Select_0",
+        "pins": [
+          {
+            "name": "Option 0",
+            "value": "NSLOCTEXT(\"[9E0E43924D09D3EEDC90159E87F88F10]\", \"963E0668494965569FF3078190452496\", \"Km/h\")",
+            "links": []
+          },
+          {
+            "name": "Option 1",
+            "value": "NSLOCTEXT(\"[9E0E43924D09D3EEDC90159E87F88F10]\", \"C0D94AF0436365E130BF428C2BABB354\", \"MPH\")",
+            "links": []
+          },
+          {
+            "name": "Index",
+            "value": "false",
+            "links": [
+              "K2Node_VariableGet_0:bIsMPH"
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "value": "",
+            "links": [
+              "K2Node_CallFunction_10:InText"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "api": [
+    "acquire_editor_element_handle",
+    "add_branch_node",
+    "add_call_function_node",
+    "add_comment_node",
+    "add_comment_to_nodes",
+    "add_component_bound_event_node",
+    "add_custom_event_node",
+    "add_dispatcher_event_node",
+    "add_get_local_variable_node",
+    "add_get_member_variable_node",
+    "add_graph_input_parameter",
+    "add_graph_output_parameter",
+    "add_local_variable",
+    "add_macro_node",
+    "add_member_variable",
+    "add_node_pin",
+    "add_return_node",
+    "add_set_local_variable_node",
+    "add_set_member_variable_node",
+    "call_method",
+    "cast",
+    "create_and_edit_function_graph",
+    "create_node_from_name",
+    "find_event_node",
+    "find_graph_entry_pin",
+    "get_class",
+    "get_default_object",
+    "get_editor_property",
+    "get_fname",
+    "get_full_name",
+    "get_graph",
+    "get_graph_editor",
+    "get_graph_editor_by_name",
+    "get_local_variable_default_value",
+    "get_local_variable_type",
+    "get_name",
+    "get_outer",
+    "get_outermost",
+    "get_package",
+    "get_path_name",
+    "get_typed_outer",
+    "get_world",
+    "is_editor_property_overridden",
+    "is_package_external",
+    "list_all_nodes",
+    "list_available_nodes",
+    "list_comment_nodes",
+    "list_component_events",
+    "list_local_variable_names",
+    "list_nodes_of_class",
+    "list_nodes_with_errors",
+    "list_nodes_with_notes",
+    "list_nodes_with_warnings",
+    "modify",
+    "remove_comment_node",
+    "remove_graph_input_parameter",
+    "remove_graph_output_parameter",
+    "remove_local_variable",
+    "remove_member_variable",
+    "remove_node_pin",
+    "remove_nodes",
+    "rename",
+    "reset_editor_property",
+    "retarget_node_class",
+    "set_deprecation_message_on_function",
+    "set_editor_properties",
+    "set_editor_property",
+    "set_function_is_private",
+    "set_function_is_protected",
+    "set_function_is_public",
+    "set_is_call_in_editor_function",
+    "set_is_const_function",
+    "set_is_deprecated_function",
+    "set_is_exec_function",
+    "set_is_pure_function",
+    "set_is_thread_safe_function",
+    "set_is_unsafe_during_actor_construction_function",
+    "set_local_variable_default_value",
+    "static_class"
+  ],
+  "widget_api": [
+    "BaseWidgetBlueprint",
+    "CastToWidgetBlueprintCases",
+    "EditorUtilityDialogWidget",
+    "EditorUtilityWidget",
+    "EditorUtilityWidgetBlueprint",
+    "EditorUtilityWidgetBlueprintFactory",
+    "MVVMBlueprintViewExtension_PanelWidget",
+    "ObjectMixerEditorUWidget",
+    "UserWidgetBlueprint",
+    "VREditorBaseUserWidget",
+    "VREditorCameraWidgetComponent",
+    "VREditorWidgetComponent",
+    "WidgetBlueprint",
+    "WidgetBlueprintFactory",
+    "WidgetBlueprintGeneratedClass"
+  ]
+}

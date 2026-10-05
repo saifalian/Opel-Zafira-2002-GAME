@@ -1,0 +1,36 @@
+{
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase": [
+    {
+      "component": "VehicleMovementComp",
+      "before": [
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsFront.SportsCar_WheelsFront_C'\",BoneName=\"Phys_Wheel_FL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsFront.SportsCar_WheelsFront_C'\",BoneName=\"Phys_Wheel_FR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsRear.SportsCar_WheelsRear_C'\",BoneName=\"Phys_Wheel_BL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsRear.SportsCar_WheelsRear_C'\",BoneName=\"Phys_Wheel_BR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))"
+      ],
+      "after": [
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))"
+      ]
+    }
+  ],
+  "/Game/Zafira/BP_Zafira": [
+    {
+      "component": "VehicleMovementComp",
+      "before": [
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))"
+      ],
+      "after": [
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsFront.BP_WheelsFront_C'\",BoneName=\"Phys_Wheel_FR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BL\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))",
+        "(WheelClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/Zafira/BP_WheelsRear.BP_WheelsRear_C'\",BoneName=\"Phys_Wheel_BR\",AdditionalOffset=(X=0.000000,Y=0.000000,Z=0.000000))"
+      ]
+    }
+  ]
+}

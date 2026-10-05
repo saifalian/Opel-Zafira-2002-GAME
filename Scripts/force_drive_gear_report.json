@@ -1,0 +1,32 @@
+{
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase": {
+    "ZafiraManualTransmission": [
+      "False",
+      "False"
+    ],
+    "ZafiraRequestedGear": [
+      "1",
+      "1"
+    ],
+    "vm.use_automatic_gears": "ERR ChaosWheeledVehicleMovementComponent: Failed to find property 'use_automatic_gears' for attribute 'use_automatic_gears' on 'ChaosWheeledVehicleMovementComponent'",
+    "vm.reverse_as_brake": [
+      "True",
+      "True"
+    ]
+  },
+  "/Game/Zafira/BP_Zafira": {
+    "ZafiraManualTransmission": [
+      "False",
+      "False"
+    ],
+    "ZafiraRequestedGear": [
+      "1",
+      "1"
+    ],
+    "vm.use_automatic_gears": "ERR ChaosWheeledVehicleMovementComponent: Failed to find property 'use_automatic_gears' for attribute 'use_automatic_gears' on 'ChaosWheeledVehicleMovementComponent'",
+    "vm.reverse_as_brake": [
+      "True",
+      "True"
+    ]
+  }
+}

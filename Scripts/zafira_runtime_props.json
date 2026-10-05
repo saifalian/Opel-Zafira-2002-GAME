@@ -1,0 +1,91 @@
+{
+  "props": {
+    "auto_possess_player": "<AutoReceiveInput.DISABLED: 0>",
+    "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>",
+    "input_priority": "0",
+    "block_input": "False"
+  },
+  "components": [
+    {
+      "name": "Default__BP_Zafira_C",
+      "class": "BP_Zafira_C"
+    },
+    {
+      "name": "Headlight_L_GEN_VARIABLE",
+      "class": "SpotLightComponent"
+    },
+    {
+      "name": "Headlight_R_GEN_VARIABLE",
+      "class": "SpotLightComponent"
+    },
+    {
+      "name": "Chasis_Main_GEN_VARIABLE",
+      "class": "StaticMeshComponent"
+    },
+    {
+      "name": "FL_Wheel_0_GEN_VARIABLE",
+      "class": "StaticMeshComponent"
+    },
+    {
+      "name": "FR_Wheel_0_GEN_VARIABLE",
+      "class": "StaticMeshComponent"
+    },
+    {
+      "name": "BR_Wheel_0_GEN_VARIABLE",
+      "class": "StaticMeshComponent"
+    },
+    {
+      "name": "BL_Wheel_0_GEN_VARIABLE",
+      "class": "StaticMeshComponent"
+    },
+    {
+      "name": "Chasis_Glass_GEN_VARIABLE",
+      "class": "StaticMeshComponent"
+    },
+    {
+      "name": "ZafiraDieselIdle_GEN_VARIABLE",
+      "class": "AudioComponent"
+    },
+    {
+      "name": "ZafiraDieselRun_GEN_VARIABLE",
+      "class": "AudioComponent"
+    },
+    {
+      "name": "BackCamera_GEN_VARIABLE",
+      "class": "CameraComponent"
+    },
+    {
+      "name": "BackCamera_GEN_VARIABLE",
+      "class": "CameraComponent"
+    },
+    {
+      "name": "BackSpringArm_GEN_VARIABLE",
+      "class": "SpringArmComponent"
+    },
+    {
+      "name": "FrontCamera_GEN_VARIABLE",
+      "class": "CameraComponent"
+    },
+    {
+      "name": "FrontCamera_GEN_VARIABLE",
+      "class": "CameraComponent"
+    },
+    {
+      "name": "FrontSpringArm_GEN_VARIABLE",
+      "class": "SpringArmComponent"
+    },
+    {
+      "name": "VehicleMesh",
+      "class": "SkeletalMeshComponent"
+    },
+    {
+      "name": "VehicleMovementComp",
+      "class": "ChaosWheeledVehicleMovementComponent",
+      "auto_activate": "True",
+      "updated_component": "<Object '/Game/Zafira/BP_Zafira.Default__BP_Zafira_C:VehicleMesh' (0x000001DCE7FC1400) Class 'SkeletalMeshComponent'>",
+      "engine_setup": "<Struct 'VehicleEngineConfig' (0x000001DD70FA8800) {}>",
+      "transmission_setup": "<Struct 'VehicleTransmissionConfig' (0x000001DD70FA88D8) {}>",
+      "wheel_setups": "[{}, {}, {}, {}]"
+    }
+  ]
+}

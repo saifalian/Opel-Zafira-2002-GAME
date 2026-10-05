@@ -1,0 +1,30 @@
+{
+  "api": [
+    "add_member_variable",
+    "change_member_variable_type",
+    "get_blueprint_variable_category",
+    "get_blueprint_variable_replication",
+    "get_member_variable_type",
+    "list_member_variable_names",
+    "remove_unused_variables",
+    "replace_variable_references",
+    "set_blueprint_variable_category",
+    "set_blueprint_variable_expose_on_spawn",
+    "set_blueprint_variable_expose_to_cinematics",
+    "set_blueprint_variable_instance_editable",
+    "set_blueprint_variable_replication"
+  ],
+  "cdo_dir_matches": [
+    "add_actor_local_transform",
+    "add_actor_world_transform",
+    "add_actor_world_transform_keep_scale",
+    "auto_destroy_when_finished",
+    "enable_auto_lod_generation",
+    "get_actor_transform",
+    "get_level_transform",
+    "set_actor_relative_transform",
+    "set_actor_transform"
+  ],
+  "auto_destroy_when_finished": "False",
+  "enable_auto_lod_generation": "True"
+}

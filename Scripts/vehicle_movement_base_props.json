@@ -1,0 +1,28 @@
+{
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase": {
+    "VehicleMovementComp": {
+      "class": "ChaosWheeledVehicleMovementComponent",
+      "wheel_setups": "[{}, {}, {}, {}]",
+      "wheels": "[]",
+      "mass": "1500.0",
+      "drag_coefficient": "0.3100000023841858",
+      "chassis_width": "180.0",
+      "chassis_height": "144.0",
+      "drag_area": "ERR ChaosWheeledVehicleMovementComponent: Failed to find property 'drag_area' for attribute 'drag_area' on 'ChaosWheeledVehicleMovementComponent'",
+      "reverse_as_brake": "True"
+    }
+  },
+  "/Game/Zafira/BP_Zafira": {
+    "VehicleMovementComp": {
+      "class": "ChaosWheeledVehicleMovementComponent",
+      "wheel_setups": "[{}, {}, {}, {}]",
+      "wheels": "[]",
+      "mass": "1485.0",
+      "drag_coefficient": "0.23000000417232513",
+      "chassis_width": "174.0",
+      "chassis_height": "145.0",
+      "drag_area": "ERR ChaosWheeledVehicleMovementComponent: Failed to find property 'drag_area' for attribute 'drag_area' on 'ChaosWheeledVehicleMovementComponent'",
+      "reverse_as_brake": "True"
+    }
+  }
+}

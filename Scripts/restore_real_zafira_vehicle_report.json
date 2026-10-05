@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "restored_real_vehicle": "/Game/Zafira/BP_Zafira",
+  "controller": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController",
+  "mapped_count": 16,
+  "playerstart": [
+    1800,
+    0,
+    820
+  ],
+  "save_map": true
+}

@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "map": "/Game/Zafira/Maps/ZafiraStraight5KM",
+  "length_cm": 500000.0,
+  "length_km": 5.0,
+  "road_width_cm": 1800.0,
+  "floor_width_cm": 7000.0,
+  "km_markers": [
+    "S5_1KM_PASS_L",
+    "S5_1KM_PASS_R",
+    "S5_2KM_PASS_L",
+    "S5_2KM_PASS_R",
+    "S5_3KM_PASS_L",
+    "S5_3KM_PASS_R",
+    "S5_4KM_PASS_L",
+    "S5_4KM_PASS_R",
+    "S5_5KM_PASS_L",
+    "S5_5KM_PASS_R"
+  ]
+}

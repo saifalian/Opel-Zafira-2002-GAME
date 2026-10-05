@@ -1,0 +1,31 @@
+{
+  "WidgetTree": [],
+  "WidgetBlueprint": [],
+  "WidgetBlueprintLibrary": null,
+  "WidgetBlueprintEditorLibrary": null,
+  "CanvasPanel": [
+    "add_child",
+    "add_child_to_canvas",
+    "clear_children",
+    "get_all_children",
+    "get_child_at",
+    "get_child_index",
+    "get_children_count",
+    "has_any_children",
+    "has_child",
+    "remove_child",
+    "remove_child_at",
+    "slot",
+    "tool_tip_widget"
+  ],
+  "TextBlock": [
+    "slot",
+    "tool_tip_widget"
+  ],
+  "CanvasPanelSlot": [],
+  "Widget": [
+    "slot",
+    "tool_tip_widget"
+  ],
+  "bp_props": "no"
+}

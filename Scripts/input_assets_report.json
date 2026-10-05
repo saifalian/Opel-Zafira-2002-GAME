@@ -1,0 +1,96 @@
+{
+  "/Game/VehicleTemplate/Input/Actions/IA_Throttle": {
+    "class": "InputAction",
+    "value_type": "<InputActionValueType.AXIS1D: 1>",
+    "accumulation_behavior": "<InputActionAccumulationBehavior.TAKE_HIGHEST_ABSOLUTE_VALUE: 0>",
+    "trigger_events_that_consume_legacy_keys": "0"
+  },
+  "/Game/VehicleTemplate/Input/Actions/IA_Brake": {
+    "class": "InputAction",
+    "value_type": "<InputActionValueType.AXIS1D: 1>",
+    "accumulation_behavior": "<InputActionAccumulationBehavior.TAKE_HIGHEST_ABSOLUTE_VALUE: 0>",
+    "trigger_events_that_consume_legacy_keys": "0"
+  },
+  "/Game/VehicleTemplate/Input/Actions/IA_Steering": {
+    "class": "InputAction",
+    "value_type": "<InputActionValueType.AXIS1D: 1>",
+    "accumulation_behavior": "<InputActionAccumulationBehavior.TAKE_HIGHEST_ABSOLUTE_VALUE: 0>",
+    "trigger_events_that_consume_legacy_keys": "0"
+  },
+  "/Game/VehicleTemplate/Input/IMC_Vehicle_Default": {
+    "class": "InputMappingContext",
+    "default_key_mappings": "<Struct 'InputMappingContextMappingData' (0x0000017BBECC8B00) {mappings: ((Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=W),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=Up),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=Gamepad_RightTriggerAxis),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=S),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=Down),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=Gamepad_LeftTriggerAxis),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Left),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=D),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Right),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Gamepad_LeftX),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\",Key=SpaceBar),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Reset.IA_Reset'\",Key=R),(Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera'\",Key=C))}>",
+    "mappings": [
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle' (0x0000017BC112A2C0) Class 'InputAction'>",
+        "key_export": "W",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle' (0x0000017BC112A2C0) Class 'InputAction'>",
+        "key_export": "Up",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle' (0x0000017BC112A2C0) Class 'InputAction'>",
+        "key_export": "Gamepad_RightTriggerAxis",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake' (0x0000017B596E6CC0) Class 'InputAction'>",
+        "key_export": "S",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake' (0x0000017B596E6CC0) Class 'InputAction'>",
+        "key_export": "Down",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake' (0x0000017B596E6CC0) Class 'InputAction'>",
+        "key_export": "Gamepad_LeftTriggerAxis",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering' (0x0000017B596E5DC0) Class 'InputAction'>",
+        "key_export": "A",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering' (0x0000017B596E5DC0) Class 'InputAction'>",
+        "key_export": "Left",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering' (0x0000017B596E5DC0) Class 'InputAction'>",
+        "key_export": "D",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering' (0x0000017B596E5DC0) Class 'InputAction'>",
+        "key_export": "Right",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering' (0x0000017B596E5DC0) Class 'InputAction'>",
+        "key_export": "Gamepad_LeftX",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake' (0x0000017C10FEBE80) Class 'InputAction'>",
+        "key_export": "SpaceBar",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_Reset.IA_Reset' (0x0000017C10FEF840) Class 'InputAction'>",
+        "key_export": "R",
+        "modifiers": "[]"
+      },
+      {
+        "action": "<Object '/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera' (0x0000017C10FED200) Class 'InputAction'>",
+        "key_export": "C",
+        "modifiers": "[]"
+      }
+    ]
+  }
+}

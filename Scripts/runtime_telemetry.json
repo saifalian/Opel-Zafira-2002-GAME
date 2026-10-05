@@ -1,0 +1,5 @@
+{
+  "error": "pawn has no Chaos component",
+  "rows": [],
+  "test": "PIE direct Chaos control setters, not physical keyboard injection"
+}

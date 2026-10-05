@@ -1,0 +1,14 @@
+[
+  {
+    "name": "VehicleMesh",
+    "class": "SkeletalMeshComponent",
+    "relative_location": "<Struct 'Vector' (0x000001CF7ED80180) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+    "relative_rotation": "<Struct 'Rotator' (0x000001CF7ED80198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "auto_activate": "True"
+  },
+  {
+    "name": "VehicleMovementComp",
+    "class": "ChaosWheeledVehicleMovementComponent",
+    "auto_activate": "True"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "EditorLoadingAndSavingUtils": [
+    "get_dirty_map_packages",
+    "load_map",
+    "load_map_with_dialog",
+    "new_blank_map",
+    "new_map_from_template",
+    "save_current_level",
+    "save_dirty_packages",
+    "save_dirty_packages_with_dialog",
+    "save_map",
+    "save_packages",
+    "save_packages_with_dialog"
+  ],
+  "EditorLevelLibrary": [
+    "save_all_dirty_levels",
+    "save_current_level"
+  ]
+}

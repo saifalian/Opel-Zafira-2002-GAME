@@ -1,0 +1,78 @@
+{
+  "/Game/VehicleTemplate/Input/IMC_Vehicle_Default": {
+    "written": [
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=W,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=Up,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=S,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=Down,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=(\"/Script/EnhancedInput.InputModifierNegate'/Game/VehicleTemplate/Input/IMC_Vehicle_Default.IMC_Vehicle_Default:InputModifierNegate_A'\"),Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=(\"/Script/EnhancedInput.InputModifierNegate'/Game/VehicleTemplate/Input/IMC_Vehicle_Default.IMC_Vehicle_Default:InputModifierNegate_Left'\"),Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Left,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=D,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Right,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\",Key=SpaceBar,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)"
+    ],
+    "verify": [
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=W,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=Up,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=S,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=Down,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Left,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=D,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Right,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\",Key=SpaceBar,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)"
+    ]
+  },
+  "/Game/VehicleTemplate/Input/IMC_SteeringWheel": {
+    "written": [
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=W,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=Up,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=S,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=Down,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=(\"/Script/EnhancedInput.InputModifierNegate'/Game/VehicleTemplate/Input/IMC_SteeringWheel.IMC_SteeringWheel:InputModifierNegate_A'\"),Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=(\"/Script/EnhancedInput.InputModifierNegate'/Game/VehicleTemplate/Input/IMC_SteeringWheel.IMC_SteeringWheel:InputModifierNegate_Left'\"),Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Left,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=D,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Right,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\",Key=SpaceBar,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Reset.IA_Reset'\",Key=R,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera'\",Key=C,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)"
+    ],
+    "verify": [
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=W,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=Up,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=S,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=Down,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Left,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=D,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Right,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\",Key=SpaceBar,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Reset.IA_Reset'\",Key=R,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera'\",Key=C,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)"
+    ]
+  },
+  "/Game/Input/IMC_Default": {
+    "written": [
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=W,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=Up,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=S,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=Down,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=(\"/Script/EnhancedInput.InputModifierNegate'/Game/Input/IMC_Default.IMC_Default:InputModifierNegate_A'\"),Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=(\"/Script/EnhancedInput.InputModifierNegate'/Game/Input/IMC_Default.IMC_Default:InputModifierNegate_Left'\"),Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Left,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=D,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Right,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\",Key=SpaceBar,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)"
+    ],
+    "verify": [
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=W,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle'\",Key=Up,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=S,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake'\",Key=Down,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Left,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=D,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=Right,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+      "(Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake'\",Key=SpaceBar,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)"
+    ]
+  }
+}

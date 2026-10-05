@@ -1,0 +1,16 @@
+{
+  "imported": [
+    "/Game/Zafira/LongTrack/Meshes/LT_Barriers",
+    "/Game/Zafira/LongTrack/Meshes/LT_CityBuildings",
+    "/Game/Zafira/LongTrack/Meshes/LT_Curbs_L",
+    "/Game/Zafira/LongTrack/Meshes/LT_Curbs_R",
+    "/Game/Zafira/LongTrack/Meshes/LT_Road",
+    "/Game/Zafira/LongTrack/Meshes/LT_StartGantry",
+    "/Game/Zafira/LongTrack/Meshes/LT_Terrain",
+    "/Game/Zafira/LongTrack/Meshes/LT_Trees"
+  ],
+  "map": "/Game/Zafira/Maps/ZafiraLongTrack",
+  "success": true,
+  "length_km": 5.350652148297217,
+  "start_yaw": 37.46519461530684
+}

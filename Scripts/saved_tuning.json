@@ -1,0 +1,51 @@
+{
+  "mass": 1555.0,
+  "torque_points": [
+    [
+      0,
+      0.45
+    ],
+    [
+      800,
+      0.55
+    ],
+    [
+      1200,
+      0.8
+    ],
+    [
+      1500,
+      1
+    ],
+    [
+      2750,
+      1
+    ],
+    [
+      3500,
+      0.89
+    ],
+    [
+      4000,
+      0.7844065052386271
+    ],
+    [
+      4500,
+      0.62
+    ],
+    [
+      4700,
+      0.3
+    ]
+  ],
+  "targets_unverified": {
+    "top_kmh": 187,
+    "zero_to_100_seconds": 11.5
+  },
+  "configs": {
+    "engine_setup": "(TorqueCurve=(EditorCurveData=(Keys=((Value=0.450000),(Time=800.000000,Value=0.550000),(Time=1200.000000,Value=0.800000),(Time=1500.000000,Value=1.000000),(Time=2750.000000,Value=1.000000),(Time=3500.000000,Value=0.890000),(Time=4000.000000,Value=0.784406),(Time=4500.000000,Value=0.620000),(Time=4700.000000,Value=0.300000)),DefaultValue=340282346638528859811704183484516925440.000000,PreInfinityExtrap=RCCE_Constant,PostInfinityExtrap=RCCE_Constant),ExternalCurve=None),MaxTorque=280.000000,MaxRPM=4700.000000,EngineIdleRPM=800.000000,EngineBrakeEffect=0.120000,EngineRevUpMOI=1.000000,EngineRevDownRate=600.000000)",
+    "transmission_setup": "(bUseAutomaticGears=True,bUseAutoReverse=True,FinalRatio=3.818000,ForwardGearRatios=(3.670000,1.880000,1.180000,0.890000,0.660000),ReverseGearRatios=(3.430000),ChangeUpRPM=4200.000000,ChangeDownRPM=1500.000000,GearChangeTime=0.350000,TransmissionEfficiency=0.900000)",
+    "differential_setup": "(DifferentialType=FrontWheelDrive,FrontRearSplit=0.500000)",
+    "steering_setup": "(SteeringType=Ackermann,AngleRatio=0.700000,SteeringCurve=(EditorCurveData=(Keys=((Value=1.000000),(Value=1.000000),(Time=20.000000,Value=0.800000),(Time=20.000000,Value=0.800000),(Time=60.000000,Value=0.400000),(Time=60.000000,Value=0.400000),(Time=120.000000,Value=0.300000),(Time=120.000000,Value=0.300000)),DefaultValue=340282346638528859811704183484516925440.000000,PreInfinityExtrap=RCCE_Constant,PostInfinityExtrap=RCCE_Constant),ExternalCurve=None))"
+  }
+}

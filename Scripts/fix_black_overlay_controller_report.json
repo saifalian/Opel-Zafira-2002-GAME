@@ -1,0 +1,4 @@
+{
+  "success": true,
+  "change": "Disabled custom VehicleAdvPlayerController HUD/overlay by switching GameMode to default PlayerController; kept BP_Zafira pawn."
+}

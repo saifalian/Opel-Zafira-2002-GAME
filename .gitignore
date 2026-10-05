@@ -1,0 +1,30 @@
+# Unreal generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+BuildOutput/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Packaged Android outputs are uploaded as GitHub Release assets, not committed
+*.apk
+*.obb
+*.aab
+
+# Local/editor temporary files
+*.log
+*.tmp
+*.bak
+*.user
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db

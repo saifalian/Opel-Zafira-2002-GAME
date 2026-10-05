@@ -1,0 +1,12 @@
+{
+  "textures": [
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_BRAKE",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_CAMERA",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_GAS",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_HAND",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_LOOK",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_RESET",
+    "/Game/VehicleTemplate/Input/TouchLabels/T_Button_STEER"
+  ],
+  "success": true
+}

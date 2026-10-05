@@ -1,0 +1,31 @@
+{
+  "objects": [
+    {
+      "name": "UnitLabel",
+      "object": "<Object '/Game/VehicleTemplate/UI/UI_Vehicle.UI_Vehicle:WidgetTree.UnitLabel' (0x000001F4C3F45A00) Class 'TextBlock'>",
+      "slot": "<Object '/Game/VehicleTemplate/UI/UI_Vehicle.UI_Vehicle:WidgetTree.VerticalBox_76.VerticalBoxSlot_1' (0x000001F4C4332BC0) Class 'VerticalBoxSlot'>"
+    },
+    {
+      "name": "SpeedLabel",
+      "object": "<Object '/Game/VehicleTemplate/UI/UI_Vehicle.UI_Vehicle:WidgetTree.SpeedLabel' (0x000001F4C3F46C00) Class 'TextBlock'>",
+      "slot": "<Object '/Game/VehicleTemplate/UI/UI_Vehicle.UI_Vehicle:WidgetTree.VerticalBox_76.VerticalBoxSlot_0' (0x000001F4C4332D80) Class 'VerticalBoxSlot'>"
+    },
+    {
+      "name": "GearLabel",
+      "object": "<Object '/Game/VehicleTemplate/UI/UI_Vehicle.UI_Vehicle:WidgetTree.GearLabel' (0x000001F4C3F47200) Class 'TextBlock'>",
+      "slot": "<Object '/Game/VehicleTemplate/UI/UI_Vehicle.UI_Vehicle:WidgetTree.VerticalBox.VerticalBoxSlot_0' (0x000001F4C4332E60) Class 'VerticalBoxSlot'>"
+    }
+  ],
+  "create_node_from_name": "x.create_node_from_name(node_with_category, location, context_pins, declaring_class=None) -> EdGraphNode\r\nCreates node from Catagory and Name. Example:\n                     - 'Development|PrintString'\n                     - 'Utilities|Operators|Add'\n                     - 'Utilities|FlowControl|Branch'\n                     - 'Math|Vector|VectorLength'\nWhen multiple actions share the same Category|Name string , pass DeclaringClass to\nselect the action belonging to that specific class.\r\n\r\nArgs:\r\n    node_with_category (str): \r\n    location (Vector2D): \r\n    context_pins (Array[BlueprintGraphPin]): \r\n    declaring_class (type(Class)): \r\n\r\nReturns:\r\n    EdGraphNode:",
+  "add_get_member_variable_node": "x.add_get_member_variable_node(member_name, class_path=\"\") -> K2Node_VariableGet\r\nCreates a UK2Node_VariableGet for the member variable identified by MemberName\nby default this will use the current class, provided a ClassPath to work\nwith a different class\r\n\r\nArgs:\r\n    member_name (Name): \r\n    class_path (str): \r\n\r\nReturns:\r\n    K2Node_VariableGet:",
+  "list_available_nodes": "x.list_available_nodes(context_pins) -> Array[str]\r\nList all of the nodes by name that can be added to this graph\r\n\r\nArgs:\r\n    context_pins (Array[BlueprintGraphPin]): \r\n\r\nReturns:\r\n    Array[str]: \r\n\r\n    result (Array[str]):",
+  "add_call_function_node": "x.add_call_function_node(function_path) -> K2Node_CallFunction\r\nCreates a UK2Node_CallFunction in the current graph invoking the function specified by FunctionPath\r\n\r\nArgs:\r\n    function_path (str): \r\n\r\nReturns:\r\n    K2Node_CallFunction:",
+  "movement": [
+    "get_current_gear",
+    "get_engine_rotation_speed",
+    "get_target_gear",
+    "get_use_auto_gears",
+    "set_target_gear",
+    "set_use_automatic_gears"
+  ]
+}

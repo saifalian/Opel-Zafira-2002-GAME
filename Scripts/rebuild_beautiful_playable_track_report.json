@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "save_map": true,
+  "segments": 72,
+  "approx_length_m": 5327.4,
+  "map": "/Game/Zafira/Maps/ZafiraPlayableTrack",
+  "note": "Rebuilt visible template-based track with long curves, elevation, trees, city blocks, barriers, curbs."
+}

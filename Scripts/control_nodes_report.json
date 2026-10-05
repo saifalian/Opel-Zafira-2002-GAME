@@ -1,0 +1,284 @@
+{
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController": [
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_Event_1",
+      "title": "Event BeginPlay",
+      "class": "K2Node_Event"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_Event_2",
+      "title": "Event On Possess",
+      "class": "K2Node_Event"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_12",
+      "title": "Possess",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_9",
+      "title": "AddMappingContext",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_GetSubsystem_0",
+      "title": "Get EnhancedInputLocalPlayerSubsystem",
+      "class": "K2Node_GetSubsystem"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_15",
+      "title": "AddMappingContext",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_GetSubsystem_2",
+      "title": "Get EnhancedInputLocalPlayerSubsystem",
+      "class": "K2Node_GetSubsystem"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_4",
+      "title": "AddMappingContext",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_VariableGet_3",
+      "title": "Get Use Steering Wheel Input",
+      "class": "K2Node_VariableGet"
+    }
+  ],
+  "/Game/Zafira/BP_Zafira": [
+    {
+      "graph": "BrakeLights",
+      "name": "K2Node_FunctionEntry_0",
+      "title": "BrakeLights",
+      "class": "K2Node_FunctionEntry"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_EnhancedInputAction_0",
+      "title": "EnhancedInputAction IA_Headlights",
+      "class": "K2Node_EnhancedInputAction"
+    }
+  ],
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase": [
+    {
+      "graph": "BrakeLights",
+      "name": "K2Node_FunctionEntry_0",
+      "title": "BrakeLights",
+      "class": "K2Node_FunctionEntry"
+    },
+    {
+      "graph": "ZafiraCameraLook",
+      "name": "K2Node_CallFunction_2",
+      "title": "GetInputMouseDelta",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "ZafiraTransmissionInput",
+      "name": "K2Node_FunctionEntry_0",
+      "title": "ZafiraTransmissionInput",
+      "class": "K2Node_FunctionEntry"
+    },
+    {
+      "graph": "ZafiraTransmissionInput",
+      "name": "K2Node_CallFunction_2",
+      "title": "WasInputKeyJustPressed",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "ZafiraTransmissionInput",
+      "name": "K2Node_CallFunction_5",
+      "title": "WasInputKeyJustPressed",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "ZafiraTransmissionInput",
+      "name": "K2Node_CallFunction_8",
+      "title": "WasInputKeyJustPressed",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "ZafiraUpdateDieselAudio",
+      "name": "K2Node_CallFunction_4",
+      "title": "GetThrottleInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_Event_11",
+      "title": "Event BeginPlay",
+      "class": "K2Node_Event"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_34",
+      "title": "SetSteeringInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_17",
+      "title": "SetHandbrakeInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_36",
+      "title": "SetHandbrakeInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_30",
+      "title": "SetThrottleInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_39",
+      "title": "SetBrakeInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_EnhancedInputAction_0",
+      "title": "EnhancedInputAction IA_Throttle",
+      "class": "K2Node_EnhancedInputAction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_EnhancedInputAction_1",
+      "title": "EnhancedInputAction IA_Brake",
+      "class": "K2Node_EnhancedInputAction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_EnhancedInputAction_2",
+      "title": "EnhancedInputAction IA_Handbrake",
+      "class": "K2Node_EnhancedInputAction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_EnhancedInputAction_3",
+      "title": "EnhancedInputAction IA_LookAround",
+      "class": "K2Node_EnhancedInputAction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_EnhancedInputAction_5",
+      "title": "EnhancedInputAction IA_Reset",
+      "class": "K2Node_EnhancedInputAction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_EnhancedInputAction_6",
+      "title": "EnhancedInputAction IA_Steering",
+      "class": "K2Node_EnhancedInputAction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_EnhancedInputAction_7",
+      "title": "EnhancedInputAction IA_ToggleCamera",
+      "class": "K2Node_EnhancedInputAction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_63",
+      "title": "BrakeLights",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_62",
+      "title": "BrakeLights",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_40",
+      "title": "BrakeLights",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_64",
+      "title": "BrakeLights",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_31",
+      "title": "SetBrakeInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_38",
+      "title": "SetThrottleInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_26",
+      "title": "SetSteeringInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_Event_6",
+      "title": "Event Touch Handbrake Start",
+      "class": "K2Node_Event"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_Event_7",
+      "title": "Event Touch Handbrake End",
+      "class": "K2Node_Event"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_42",
+      "title": "SetBrakeInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_27",
+      "title": "SetThrottleInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_35",
+      "title": "SetBrakeInput",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_41",
+      "title": "BrakeLights",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_65",
+      "title": "BrakeLights",
+      "class": "K2Node_CallFunction"
+    },
+    {
+      "graph": "EventGraph",
+      "name": "K2Node_CallFunction_28",
+      "title": "ZafiraTransmissionInput",
+      "class": "K2Node_CallFunction"
+    }
+  ]
+}

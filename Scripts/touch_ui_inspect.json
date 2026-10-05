@@ -1,0 +1,29 @@
+{
+  "/Game/VehicleTemplate/Input/UI_Touch_Vehicle": {
+    "class": "WidgetBlueprint",
+    "props": {},
+    "dir": [
+      "remove_event_dispatcher",
+      "remove_event_dispatcher_parameter"
+    ],
+    "generated_class": "<built-in method generated_class of WidgetBlueprint object at 0x000002823504BE10>"
+  },
+  "/Game/Input/Touch/UI_TouchSimple": {
+    "class": "WidgetBlueprint",
+    "props": {},
+    "dir": [
+      "remove_event_dispatcher",
+      "remove_event_dispatcher_parameter"
+    ],
+    "generated_class": "<built-in method generated_class of WidgetBlueprint object at 0x000002824BE24050>"
+  },
+  "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController": {
+    "class": "Blueprint",
+    "props": {},
+    "dir": [
+      "remove_event_dispatcher",
+      "remove_event_dispatcher_parameter"
+    ],
+    "generated_class": "<built-in method generated_class of Blueprint object at 0x000002824BE24030>"
+  }
+}

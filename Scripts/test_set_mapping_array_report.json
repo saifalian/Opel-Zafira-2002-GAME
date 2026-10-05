@@ -1,0 +1,9 @@
+{
+  "/Game/VehicleTemplate/Input/IMC_Vehicle_Default": [
+    "arr len 1",
+    "before (Triggers=,Modifiers=,Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+    "after (Triggers=,Modifiers=(\"/Script/EnhancedInput.InputModifierNegate'/Game/VehicleTemplate/Input/ZafiraInputNegate_Test.ZafiraInputNegate_Test'\"),Action=\"/Script/EnhancedInput.InputAction'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering'\",Key=A,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)",
+    "set data ok",
+    "verify ['(Triggers=,Modifiers=(\"/Script/EnhancedInput.InputModifierNegate\\'/Game/VehicleTemplate/Input/ZafiraInputNegate_Test.ZafiraInputNegate_Test\\'\"),Action=\"/Script/EnhancedInput.InputAction\\'/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering\\'\",Key=A,SettingBehavior=InheritSettingsFromAction,PlayerMappableKeySettings=None)']"
+  ]
+}

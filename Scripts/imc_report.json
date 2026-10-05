@@ -1,0 +1,10 @@
+{
+  "/Game/VehicleTemplate/Input/IMC_Vehicle_Default": {
+    "class": "InputMappingContext",
+    "mappings": []
+  },
+  "/Game/Input/IMC_Default": {
+    "class": "InputMappingContext",
+    "mappings": []
+  }
+}

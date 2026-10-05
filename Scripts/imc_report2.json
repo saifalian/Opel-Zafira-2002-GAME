@@ -1,0 +1,12 @@
+{
+  "/Game/VehicleTemplate/Input/IMC_Vehicle_Default": {
+    "class": "InputMappingContext",
+    "mappings": [],
+    "default_key_mappings": "ERR 'InputMappingContextMappingData' object is not iterable"
+  },
+  "/Game/Input/IMC_Default": {
+    "class": "InputMappingContext",
+    "mappings": [],
+    "default_key_mappings": "ERR 'InputMappingContextMappingData' object is not iterable"
+  }
+}

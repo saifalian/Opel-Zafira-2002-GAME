@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "actors": [
+    "FORCED_VISIBLE_GREY_ROAD",
+    "FORCED_VISIBLE_GREEN_LEFT",
+    "FORCED_VISIBLE_GREEN_RIGHT",
+    "FORCED_VISIBLE_RED_WALL",
+    "FORCED_VISIBLE_YELLOW_WALL",
+    "FORCED_VISIBLE_PLAYER_CAMERA",
+    "FORCED_VISIBLE_SUN"
+  ],
+  "save_dirty": true,
+  "save_asset": true
+}

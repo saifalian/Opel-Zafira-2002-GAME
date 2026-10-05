@@ -1,0 +1,9 @@
+{
+  "nodes": [
+    {
+      "name": "K2Node_Event_0",
+      "title": "Event Touch Headlights",
+      "class": "K2Node_Event"
+    }
+  ]
+}
